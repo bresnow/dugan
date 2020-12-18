@@ -63,12 +63,12 @@ const NavLinks = ({ extraClassName }) => {
               <a>About</a>
             </Link>
           </li>
-
+{/* 
           <li>
         <Link href="#">
           <a>Core Values</a>
         </Link>
-      </li>
+      </li> */}
      
           
       {/* <li className="dropdown"> 
