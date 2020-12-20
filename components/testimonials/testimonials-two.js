@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import SwiperCore, { Autoplay, Thumbs } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BlockTitle from "../block-title";
-import testimonialImage1 from "../../assets/images/resources/testimonial-2-1.jpg";
 import testimonialImage2 from "../../assets/images/resources/testimonial-2-2.jpg";
 import testimonialImage3 from "../../assets/images/resources/testimonial-2-3.jpg";
 import testimonialImage4 from "../../assets/images/resources/testimonial4.png";
