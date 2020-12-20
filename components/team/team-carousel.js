@@ -3,9 +3,9 @@ import { Container, Row} from "react-bootstrap";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
 import teamImage1 from "../../assets/images/team/team-2-1.jpg";
 import teamImage2 from "../../assets/images/kevin.jpg";
-// import teamImage3 from "../../assets/images/alex.jpg";
-// import teamImage4 from "../../assets/images/mary.jpg";
-// import teamImage6 from "../../assets/images/team/sam.jpg";
+import teamImage3 from "../../assets/images/alex.jpg";
+import teamImage4 from "../../assets/images/mary.jpg";
+import teamImage6 from "../../assets/images/team/sam.jpg";
 const TeamData = [
   {
     image: teamImage2,
@@ -13,7 +13,7 @@ const TeamData = [
     name: "Kevin Dugan",
     designation: "Partner",
     bio:
-      "Kevin has helped hundreds of federal employees across the Ohio Valley plan their retirements over the last several years. Prior to being a financial planner, he worked as a health insurance broker, where he enabled people to make better decisions with their medical benefits. In 2007, Kevin graduated Cum Laude with a bachelor’s degree in Business Economics and a minor in Mathematics from Loyola University Maryland. Kevin and his long-time business partner, Wayne Brown, now operate their own company with a shared vision of helping as many federal employees as possible",
+      "Kevin has helped hundreds of federal employees across the Ohio Valley plan their retirements over the last several years. Prior to being a financial planner, he worked as a health insurance broker, where he enabled people to make better decisions with their medical benefits. In 2007, Kevin graduated Cum Laude with a bachelor’s degree in Business Economics and a minor in Mathematics from Loyola University Maryland. Kevin and his long-time business partner, Wayne Brown, now operate their own company with a shared vision of helping as many federal employees as possible.",
     social: [
       {
         link: "mailto:kevin@duganbrown.com",
@@ -31,7 +31,7 @@ const TeamData = [
     name: "Wayne Brown",
     designation: "Partner",
     bio:
-      "Sam has worked with a multitude of federal employees hailing from many different agencies. Graduating from Lake Superior State University in 2018 with a Bachelor of Science in Geology with a minor in Geographic Information Systems, he found part-time work as a personal assistant for Wayne Brown. Showing a strong penchant for the subject matter, Wayne recommended he train as a financial planner, which Sam accepted and excelled at quickly. After learning in months what takes most individuals years, his career sky-rocketed and he now works as a junior partner alongside both Wayne Brown and Kevin Dugan in helping federal employees with retirement.",
+      "After graduating from Michigan Technological University with a major in Computer Engineering and minors in Electrical Engineering, Physics, & Mathematics, Wayne spent eight years in the United States Air Force, separating at the rank of Captain. Using his strong engineering and mathematical background in conjunction with his experience as a federal employee, he helped hundreds of federal employees across the country by leading the operations team of a financial services and retirement planning firm before branching out with his business partner, Kevin Dugan, to start their own company.",
     social: [
       {
         link: "mailto:wayne@duganbrown.com",
@@ -43,61 +43,61 @@ const TeamData = [
       },
     ],
   },
-  // {
-  //   image: teamImage6,
-  //   extraClassName: "content-bg-3",
-  //   name: "Sam Ebert",
-  //   designation: "Junior Partner",
-  //   bio:
-  //     "Sam has worked with a multitude of federal employees hailing from many different agencies. Graduating from Lake Superior State University in 2018 with a Bachelor of Science in Geology with a minor in Geographic Information Systems, he found part-time work as a personal assistant for Wayne Brown. Showing a strong penchant for the subject matter, Wayne recommended he train as a financial planner, which Sam accepted and excelled at quickly. After learning in months what takes most individuals years, his career sky-rocketed and he now works as a junior partner alongside both Wayne Brown and Kevin Dugan in helping federal employees with retirement.",
-  //   social: [
-  //     {
-  //       link: "mailto:sam@duganbrown.com",
-  //       socialClass: "azino-icon-email",
-  //     },
-  //     {
-  //       link: "tel:9062981277",
-  //       socialClass: "azino-icon-calling",
-  //     },
-  //   ],
-  // },
+  {
+    image: teamImage6,
+    extraClassName: "content-bg-3",
+    name: "Sam Ebert",
+    designation: "Junior Partner",
+    bio:
+      "Sam has worked with a multitude of federal employees hailing from many different agencies. Graduating from Lake Superior State University in 2018 with a Bachelor of Science in Geology with a minor in Geographic Information Systems, he found part-time work as a personal assistant for Wayne Brown. Showing a strong penchant for the subject matter, Wayne recommended he train as a financial planner, which Sam accepted and excelled at quickly. After learning in months what takes most individuals years, his career sky-rocketed and he now works as a junior partner alongside both Wayne Brown and Kevin Dugan in helping federal employees with retirement.",
+    social: [
+      {
+        link: "mailto:sam@duganbrown.com",
+        socialClass: "azino-icon-email",
+      },
+      {
+        link: "tel:9062981277",
+        socialClass: "azino-icon-calling",
+      },
+    ],
+  },
 
-  // {
-  //   image: teamImage3,
-  //   extraClassName: "content-bg-3",
-  //   name: "Alex Leyberman",
-  //   designation: "Associate",
-  //   bio:
-  //     "Fluent in multiple languages, Alex immigrated to the United States with his family as a child. Following his education, he built up strong credentials in customer service management and mathematical problem-solving. Given his diverse background, Alex brings a unique perspective and skill set to Dugan Brown, as he now helps federal employees fulfill their dreams of retirement.",
-  //   social: [
-  //     {
-  //       link: "mailto:alex@duganbrown.com",
-  //       socialClass: "azino-icon-email",
-  //     },
-  //     {
-  //       link: "tel:6143132422",
-  //       socialClass: "azino-icon-calling",
-  //     },
-  //   ],
-  // },
-  // {
-  //   image: teamImage4,
-  //   extraClassName: "content-bg-4",
-  //   name: "Mary Eberts",
-  //   designation: "Associate",
-  //   bio:
-  //     "Mary graduated Magna Cum Laude with a bachelor’s degree in Finance and Risk Management and a minor in Economics from Northern Michigan University. Upon graduating, she worked in the commercial insurance industry assisting large human service and manufacturing companies with their property and casualty insurance needs. Transitioning from insurance to finance, Mary brings a strong background and unique perspective to the team.",
-  //   social: [
-  //     {
-  //       link: "mailto:mary@duganbrown.com",
-  //       socialClass: "azino-icon-email",
-  //     },
-  //     {
-  //       link: "tel:9064305367",
-  //       socialClass: "azino-icon-calling",
-  //     },
-  //   ],
-  // },
+  {
+    image: teamImage3,
+    extraClassName: "content-bg-3",
+    name: "Alex Leyberman",
+    designation: "Associate",
+    bio:
+      "Fluent in multiple languages, Alex immigrated to the United States with his family as a child. Following his education, he built up strong credentials in customer service management and mathematical problem-solving. Given his diverse background, Alex brings a unique perspective and skill set to Dugan Brown, as he now helps federal employees fulfill their dreams of retirement.",
+    social: [
+      {
+        link: "mailto:alex@duganbrown.com",
+        socialClass: "azino-icon-email",
+      },
+      {
+        link: "tel:6143132422",
+        socialClass: "azino-icon-calling",
+      },
+    ],
+  },
+  {
+    image: teamImage4,
+    extraClassName: "content-bg-4",
+    name: "Mary Eberts",
+    designation: "Associate",
+    bio:
+      "Mary graduated Magna Cum Laude with a bachelor’s degree in Finance and Risk Management and a minor in Economics from Northern Michigan University. Upon graduating, she worked in the commercial insurance industry assisting large human service and manufacturing companies with their property and casualty insurance needs. Transitioning from insurance to finance, Mary brings a strong background and unique perspective to the team.",
+    social: [
+      {
+        link: "mailto:mary@duganbrown.com",
+        socialClass: "azino-icon-email",
+      },
+      {
+        link: "tel:9064305367",
+        socialClass: "azino-icon-calling",
+      },
+    ],
+  },
 ];
 
 const TeamCarousel = () => {
