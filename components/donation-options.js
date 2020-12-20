@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../assets/images/shapes/heart-2-1.png";
-
+import Link from 'next/link';
 const DonationOptions = () => {
   return (
     <section className="donate-options pt-120">
@@ -22,7 +22,7 @@ const DonationOptions = () => {
                 we know, or how much more you will gain, but how much we care. The invaluable
                 service that everyone receives is simply our standard practice.  {" "}
               </p>
-              <div className="donate-options__call">
+              {/* <div className="donate-options__call">
                 <i className="azino-icon-telephone"></i>
                 <div className="donate-options__call-content">
                   <p>
@@ -31,7 +31,7 @@ const DonationOptions = () => {
                     <a href="tel:666-888-0000">666 888 0000</a>
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={6}>
@@ -45,23 +45,12 @@ const DonationOptions = () => {
               Take the first step and book a meeting with an expert from
               our team to realize your future's true potential.
               </p>
-              <label htmlFor="name" className="sr-only"></label>
-              <input type="text" id="name" placeholder="Your Name" />
-              <label htmlFor="schedule" className="sr-only"></label>
-              <input
-                type="text"
-                placeholder="Phone Number"
-                id="schedule"
-              />
-               <label htmlFor="schedule" className="sr-only"></label>
-              <input
-                type="text"
-                placeholder="Email Address"
-                id="schedule"
-              />
+              <Link href="/contact">
               <button type="submit" className="thm-btn ">
+                
                 Schedule A Consultation
               </button>
+              </Link>
             </form>
           </Col>
         </Row>
