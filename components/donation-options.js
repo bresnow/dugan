@@ -4,7 +4,7 @@ import heartImage from "../assets/images/shapes/heart-2-1.png";
 import Link from 'next/link';
 const DonationOptions = () => {
   return (
-    <section className="donate-options pt-120">
+    <section className="donate-options pt-120 pb-12">
       <Container>
         <Row>
           <Col lg={6}>
@@ -22,16 +22,6 @@ const DonationOptions = () => {
                 we know, or how much more you will gain, but how much we care. The invaluable
                 service that everyone receives is simply our standard practice.  {" "}
               </p>
-              {/* <div className="donate-options__call">
-                <i className="azino-icon-telephone"></i>
-                <div className="donate-options__call-content">
-                  <p>
-                    Want to speak directly to an expert? <br />{" "}
-                    <span>Call us now:</span>{" "}
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                  </p>
-                </div>
-              </div> */}
             </div>
           </Col>
           <Col lg={6}>

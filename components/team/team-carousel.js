@@ -46,7 +46,7 @@ const TeamData = [
   {
     image: teamImage6,
     extraClassName: "content-bg-3",
-    name: "Sam Ebert",
+    name: "Sam Eberts",
     designation: "Junior Partner",
     bio:
       "Sam has worked with a multitude of federal employees hailing from many different agencies. Graduating from Lake Superior State University in 2018 with a Bachelor of Science in Geology with a minor in Geographic Information Systems, he found part-time work as a personal assistant for Wayne Brown. Showing a strong penchant for the subject matter, Wayne recommended he train as a financial planner, which Sam accepted and excelled at quickly. After learning in months what takes most individuals years, his career sky-rocketed and he now works as a junior partner alongside both Wayne Brown and Kevin Dugan in helping federal employees with retirement.",

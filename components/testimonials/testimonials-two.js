@@ -12,17 +12,17 @@ SwiperCore.use([Autoplay, Thumbs]);
 
 const TESTIMONIALS_DATA = [
   {
-    image: testimonialImage2,
+    image:testimonialImage2,
     name: "Steve Donovan",
     text:
       "Few times in my life have I made a decision that has benefited me like the one I made when I attended a retirement seminar by Kevin Dugan... [He] listened carefully to my retirement goals and plans and I am now financially rock solid and newly retired. And honest to God, today I received in the mail a check for 899.00 dollars for overpayment on a life insurance plan that I had been enrolled in . Kevin caught the error and sent the paperwork to get a refund, and even helped me fill out the forms. I cannot recommend Kevin Dugan highly enough . He always has my best interests as his top priority. And I trust him implicitly."
   },
-  {
-    image: testimonialImage1,
-    name: "Susan Prystauk",
-    text:
-      "I have had 2 phone consultations with Alex Leyberman about my retirement. He’s been so helpful in helping me determine what I need to do going forward. I already feel like I’m moving toward a secure and enjoyable retirement! Thanks Alex for your assistance!"
-  },
+  // {
+  //   image: testimonialImag,
+  //   name: "Susan Prystauk",
+  //   text:
+  //     "I have had 2 phone consultations with Alex Leyberman about my retirement. He’s been so helpful in helping me determine what I need to do going forward. I already feel like I’m moving toward a secure and enjoyable retirement! Thanks Alex for your assistance!"
+  // },
   {
     image: testimonialImage3,
     name: "Sharon Clinton",
