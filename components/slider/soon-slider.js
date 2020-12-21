@@ -9,7 +9,7 @@ import banner3 from "../../assets/images/main-slider/workshop.jpg";
 
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
-const MainSlider = () => {
+const MainSlider2 = () => {
   const pStyle = {
     fontSize: 30,
   }
@@ -97,4 +97,4 @@ const MainSlider = () => {
   );
 };
 
-export default MainSlider;
+export default MainSlider2;
