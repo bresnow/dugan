@@ -1,33 +1,18 @@
 import React from "react";
 import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
-import StickyHeader from "../components/header/sticky-header";
+import HeaderTwo from "../components/header/header-two";
 import MainSlider from "../components/slider/main-slider";
-import AboutTwo from "../components/about/about-two";
-import DonationOptions from "../components/donation-options";
 import CallToActionTwo from "../components/call-to-action/call-to-action-two";
-import GalleryTestimonials from "../components/gallery/gallery-testimonials";
-import TestimonialsTwo from "../components/testimonials/testimonials-two";
-import BrandCarousel from "../components/brand-carousel";
-import Footer from "../components/footer";
 
-const HomeOne = () => {
+
+const ComingSoon = () => {
   return (
-    <Layout pageTitle="Federal Retirement Planning | FERS Strategists">
-      <HeaderOne />
-      <StickyHeader />
+    <Layout pageTitle="Federal Retirement Experts | Coming Soon">
+      <HeaderTwo />
       <MainSlider />
       <CallToActionTwo />
-      <AboutTwo />
-      <BrandCarousel  />
-      <GalleryTestimonials>
-        <TestimonialsTwo />
-      </GalleryTestimonials>
-      <DonationOptions />
-      <div style={{height: 50}}></div>
-      <Footer />
     </Layout>
   );
 };
 
-export default HomeOne;
+export default ComingSoon;

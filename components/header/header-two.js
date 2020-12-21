@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
-import NavLinks from "./nav-links";
 import logoDark from "../../assets/images/logo-dark.png";
 
 const HeaderTwo = () => {
@@ -131,11 +130,6 @@ const HeaderTwo = () => {
           </div> */}
         </Container>
       </div>
-      <nav className="main-menu">
-        <Container>
-          <NavLinks extraClassName="dynamic-radius" />
-        </Container>
-      </nav>
     </div>
   );
 };

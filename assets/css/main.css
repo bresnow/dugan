@@ -3820,7 +3820,7 @@ h6 {
   -webkit-transition: 500ms;
   transition: 500ms;
   opacity: 0.3;
-  width: 60%;
+  width: 100%;
 }
 
 .client-carousel img:hover {

@@ -18,9 +18,9 @@ const BrandCarousel = ({ extraClass }) => {
   }
 
   const brandCarouselOptions = {
-    spaceBetween: 100,
-    slidesPerView: 5,
-    autoplay: { delay: 5000 },
+    spaceBetween: 300,
+    slidesPerView: 2,
+    autoplay: { delay: 1000 },
     breakpoints: {
       0: {
         spaceBetween: 30,
@@ -36,15 +36,15 @@ const BrandCarousel = ({ extraClass }) => {
       },
       767: {
         spaceBetween: 50,
-        slidesPerView: 4
+        slidesPerView: 3
       },
       991: {
         spaceBetween: 50,
-        slidesPerView: 5
+        slidesPerView: 3
       },
       1199: {
         spaceBetween: 100,
-        slidesPerView: 5
+        slidesPerView: 3
       }
     }
   };
