@@ -14,11 +14,11 @@ import Footer from "../components/footer";
 import MainSlider2 from "../components/slider/soon-slider";
 
 
+
 const HomeOne = () => {
   return (
 
     <Layout pageTitle="Federal Retirement Experts | Coming Soon">
-      <HeaderTwo />
       <MainSlider2 />
       <CallToActionTwo />
     </Layout>
