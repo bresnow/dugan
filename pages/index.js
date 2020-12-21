@@ -11,7 +11,7 @@ import TestimonialsTwo from "../components/testimonials/testimonials-two";
 import BrandCarousel from "../components/brand-carousel";
 import Footer from "../components/footer";
 
-import {MainSlider as MainSlider2} from "../components/slider/soon-slider";
+import MainSlider2 from "../components/slider/soon-slider";
 
 
 const HomeOne = () => {
