@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 
+import logoDark from "../../assets/images/logo-light.png";
+
 import banner1 from "../../assets/images/main-slider/group-photo.jpg";
 import banner2 from "../../assets/images/main-slider/lady-smartphone.jpg";
 import banner3 from "../../assets/images/main-slider/workshop.jpg";
@@ -15,41 +17,52 @@ const MainSlider2 = () => {
   }
   const mainSlideOptions = {
     slidesPerView: 1,
-    loop: true,
+    loop: false,
     effect: "fade",
     pagination: {
       el: "#main-slider-pagination",
       type: "bullets",
-      clickable: true
+      clickable: false
     },
     autoplay: {
-      delay: 10000
+      delay: 0
     }
   };
   return (
     <section className="main-slider">
       <Swiper {...mainSlideOptions}>
         <SwiperSlide>
+        <Col style={{marginLeft:35, marginTop:55}} sm={12} md={12} lg={12} xl={2}>
+          <div className="logo-box">
+            
+              <a aria-label="logo image">
+                <img src={logoDark} width="160" alt="" />
+              </a>
+            
+           
+          </div>
+          </Col>
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${banner1})` }}
           ></div>
 
           <Container>
+          
             <Row className="justify-content-end">
               <Col xl={7} lg={12} className="text-right">
-                <p style= {pStyle}>You should not be working for retirement.</p>
+                <p style= {pStyle}>Dugan Brown Federal Retirement Experts.</p>
                 <h2>
-                  Retirement <br /> Should Be<br /> Working For You.
+                  Launching<br /> Soon.
                 </h2>
                 <a>
-                  Coming Soon
+                  
                 </a>
               </Col>
             </Row>
           </Container>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${banner2})` }}
@@ -62,19 +75,19 @@ const MainSlider2 = () => {
                 <h2>
                   <span className="iconic-text">That Information</span><br /> Should
                   Also Be<br /> Free.
-                </h2>
-                <a
+                </h2> */}
+                {/* <a
                   href="/contact"
                   data-target=".contact"
                   className="thm-btn "
                 >
                   Coming Soon
-                </a>
-              </Col>
+                </a> */}
+              {/* </Col>
             </Row>
           </Container>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${banner3})` }}
@@ -91,7 +104,7 @@ const MainSlider2 = () => {
             </Row>
           </Container>
         </SwiperSlide>
-        <div className="swiper-pagination" id="main-slider-pagination"></div>
+        <div className="swiper-pagination" id="main-slider-pagination"></div> */}
       </Swiper>
     </section>
   );
