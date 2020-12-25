@@ -59,7 +59,7 @@ const HeaderOne = () => {
               <div className="logo-box">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img src={logoDark} width="160" alt="" />
+                    <img src={logoDark} width="101" alt="" />
                   </a>
                 </Link>
                 <span className="fa fa-bars mobile-nav__toggler"></span>

@@ -36,13 +36,12 @@ const ContextAwareToggle = ({ children, eventKey, callback }) => {
 };
 const FaqOne = () => {
   return (
-    <section className="faq-one pt-120 pb-120">
+    <section className="faq-one pt-30 pb-120">
       <Container>
         <Row>
           <Col xl={5}>
             <div className="price-one__main">
-              <div className="block-title">
-              </div>
+              <div className="block-title"></div>
               <p>
                 At Dugan Brown, we proudly base our core values on these same
                 ideals. Integrity, Service, and Excellence are crucial parts of
@@ -52,18 +51,20 @@ const FaqOne = () => {
               </p>
             </div>
             <div className="price-one__image-box">
-                <img src={priceBox} alt="" />
-                <div className="price-one__image-box-content">
-                  <h3 style={{color: '#424445'}}>
-                    <i className="fa fa-check"></i> Another point to drive it home
-                  </h3>
-                  <p>
-                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem is simply free text quis
-                    bibendum.
-                  </p>
-                </div>
+              <img src={priceBox} height='100%' alt="" />
+              <div className="price-one__image-box-content">
+                <h3 style={{ color: "#424445" }}>
+                  <i className="fa fa-check"></i> With Mindfulness...
+                </h3>
+                <p style={{fontSize: 18}}>
+                   in place as the final component of our core
+                  values, we promote the ideal that everything should be done
+                  with a vigorous amount of conscientiousness, with each of our
+                  actions dedicated to bringing us just a tiny bit closer to our
+                  lofty vision* for a world.
+                </p>
               </div>
+            </div>
           </Col>
           {/* </Col>
           <Col lg={6}>

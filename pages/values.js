@@ -16,6 +16,7 @@ import TestimonialsOne from "../components/testimonials/testimonials-one";
 import GalleryHomeTwo from "../components/gallery/gallery-home-two";
 import BlogHomeTwo from "../components/blog/blog-home-two";
 import ValueIntro from "../components/cv-intro";
+import CoreList from '../components/core-val-list';
 import Footer from "../components/footer";
 import PageHeader from "../components/page-header";
 const HomeTwo = () => {
@@ -24,9 +25,8 @@ const HomeTwo = () => {
       <HeaderOne />
       <StickyHeader extraClassName="stricky-header-two" />
       <PageHeader title="Core Values" crumbTitle="Core Values" />
+      <CoreList />
       <FaqOne />
-      <ServiceTwo />
-      <PriceOne />
       <Footer />
     </Layout>
   );
