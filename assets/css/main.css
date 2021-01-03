@@ -817,21 +817,20 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-.team-card__bio{
+.team-card__bio {
   text-align: justify;
   visibility: hidden;
-
 }
 
-.team-card:hover .team-card__bio{
-  opacity:1;
+.team-card:hover .team-card__bio {
+  opacity: 1;
   visibility: visible;
 }
 .team-card {
   position: relative;
 }
 
-.team-card:hover .team-card__social {
+.event-card:hover .team-card__social {
   opacity: 1;
   visibility: visible;
 }
@@ -840,8 +839,15 @@
   border-top-left-radius: 185px;
   border-top-right-radius: 185px;
   overflow: hidden;
+  align-self: center;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
+.team-card__image:hover  {
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+}
 @media (max-width: 575px) {
   .team-card__image {
     border-top-left-radius: 15px;
@@ -850,8 +856,11 @@
 }
 
 .team-card__image > img {
-  width: 40%;
-  border-radius: 100%
+  width: 20%;
+  border-top-left-radius: 185px;
+  border-top-right-radius: 185px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .team-card__social {
@@ -864,9 +873,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  /* top: 0;
+  left: 0; */
   width: 100%;
   opacity: 0;
   visibility: hidden;
@@ -905,8 +914,6 @@
 }
 
 .team-card__social a:nth-child(2) {
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
   background-color: var(--thm-special);
   color: #fff;
 }
@@ -917,8 +924,6 @@
 }
 
 .team-card__social a:nth-child(3) {
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
   background-color: var(--thm-base);
   color: #fff;
 }
@@ -1991,8 +1996,8 @@ h6 {
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
   font-family: "azino-icon";
 }
 
@@ -2923,7 +2928,7 @@ h6 {
 .main-header__two .main-menu .container {
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: -39.5px;
-  margin-right:0px;
+  margin-right: 0px;
   position: relative;
   z-index: 11;
   padding-left: 0px;
@@ -3391,7 +3396,6 @@ h6 {
 .main-slider .container {
   padding-top: 370px;
   padding-bottom: 180px;
-  
 }
 
 @media (max-width: 1199px) {
@@ -3411,8 +3415,8 @@ h6 {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color:var(--thm-gold);
-  filter: drop-shadow(-.068em 0.05em .1rem var(--thm-black));
+  color: var(--thm-gold);
+  filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
   opacity: 1;
   -webkit-transform: translateY(-120px);
   transform: translateY(-120px);
@@ -3429,8 +3433,8 @@ h6 {
   margin: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  color:#fff;
-  filter: drop-shadow(-.06em .05em .2rem black);
+  color: #fff;
+  filter: drop-shadow(-0.06em 0.05em 0.2rem black);
   font-size: 100px;
   line-height: 1.1;
   font-weight: bold;
@@ -3492,7 +3496,6 @@ h6 {
 .main-slider .swiper-slide-active .image-layer {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
-  
 }
 
 .main-slider .swiper-slide-active .thm-btn,
@@ -3565,7 +3568,6 @@ h6 {
   .main-slider__two .container {
     padding-top: 160px;
     padding-bottom: 160px;
-    
   }
 }
 
@@ -3669,10 +3671,10 @@ h6 {
   right: 0;
   bottom: 0;
   -webkit-filter: grayscale(40%);
-  filter: grayscale(40%); 
-  opacity: .6;
+  filter: grayscale(40%);
+  opacity: 0.6;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .page-header .container {
@@ -3832,9 +3834,9 @@ h6 {
 
 .client-carousel img {
   -webkit-transition: 500ms;
-  transition: 500ms;
-  opacity: 0.3;
-  width: 100%;
+  transition: 100ms;
+  opacity: 0.6;
+  width: 60%;
 }
 
 .client-carousel img:hover {
@@ -6557,7 +6559,7 @@ h6 {
 @media (max-width: 767px) {
   .call-to-action-two .container {
     padding-left: 15px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
   }
 }
 
@@ -7192,8 +7194,7 @@ h6 {
 }
 
 .service-two .container {
-
-  align-self:center;
+  align-self: center;
   position: relative;
   margin-top: -30px;
 }
@@ -7202,7 +7203,7 @@ h6 {
   margin-top: 34px;
   margin-bottom: 34px;
   min-height: 300px;
-  width:250px;
+  width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7285,7 +7286,7 @@ h6 {
   max-width: 230px;
   margin-left: auto;
   margin-right: auto;
-  filter: drop-shadow(-.068em 0.05em .1rem var(--thm-black));
+  filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
 }
 
 .service-two__box h3 a {
@@ -7296,7 +7297,7 @@ h6 {
 
 .service-two__box h3 a:hover {
   color: var(--thm-primary);
-  filter: drop-shadow(-.068em 0.05em .1rem var(--thm-black));
+  filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
 }
 
 .service-two__box-link {

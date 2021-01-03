@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import about1 from "../../assets/images/logo-coin.svg";
+import about1 from "../../assets/images/logo-gold.png";
 import about2 from "../../assets/images/resources/about-1-1.jpg";
 import about3 from "../../assets/images/resources/about-1-2.jpg";
 import pension from "../../assets/images/dbLogo-dark.svg";

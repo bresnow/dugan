@@ -8,69 +8,29 @@ const NavLinks = ({ extraClassName }) => {
   };
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
-      {/* <li className="dropdown">
-        <Link href="/index">
-          <>
-            <a>Home</a>
-            <button
-              aria-label="dropdown toggler"
-              onClick={handleDropdownStatus}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-          </>
+      <li>
+        <Link href="/">
+          <a>Home</a>
         </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/index">
-              <a>Home One</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/index-2">
-              <a>Home Two</a>
-            </Link>
-          </li>
-          <li className="dropdown">
-            <Link href="#">
-              <>
-                <a>Header Styles</a>
-                <button
-                  aria-label="dropdown toggler"
-                  onClick={handleDropdownStatus}
-                >
-                  <i className="fa fa-angle-down"></i>
-                </button>
-              </>
-            </Link>
-            <ul className="dropdown-list">
-              <li>
-                <Link href="/index">
-                  <a>Header One</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/index-2">
-                  <a>Header Two</a>
-                </Link>
-              </li>
-            </ul>
-          </li>
-        </ul>
-  </li>*/}
-       <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-{/* 
-          <li>
-        <Link href="#">
+      </li>
+      <li>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+      </li>
+
+      <li>
+        <Link href="/values">
           <a>Core Values</a>
         </Link>
-      </li> */}
-     
-          
+      </li>
+
+      <li>
+        <Link href="/contact">
+          <a>Contact</a>
+        </Link>
+      </li>
+
       {/* <li className="dropdown"> 
         <Link href="#">
           <>
@@ -96,26 +56,7 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li> */}
-      {/* <li>
-        <Link href="/about">
-          <>
-            <a>About</a>
-          </>
-        </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/events">
-              <a>Events</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/event-details">
-              <a>Event Details</a>
-            </Link>
-          </li>
-        </ul>
-      </li>
-      <li className="dropdown">
+      {/*   <li className="dropdown">
         <Link href="/news">
           <>
             <a>News</a>
@@ -140,41 +81,6 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li> */}
-      {/* <li className="dropdown">
-        <Link href="#">
-          <>
-            <a>Pages</a>
-            <button
-              aria-label="dropdown toggler"
-              onClick={handleDropdownStatus}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-          </>
-        </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/volunteers">
-              <a>Volunteers</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/become-volunteer">
-              <a>Become a Volunteer</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/gallery">
-              <a>Gallery</a>
-            </Link>
-          </li>
-        </ul>
-      </li> */}
-      <li>
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>
-      </li>
       {/* <li className="search-btn search-toggler">
         <span>
           <i className="azino-icon-magnifying-glass"></i>
