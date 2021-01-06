@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import heart from "../../assets/images/shapes/heart-2-1.png";
 import welcomeImage from "../../assets/images/resources/welcome-1-1.png";
-import aboutImage from "../../assets/images/laptop.svg";
+import aboutImage from "../../assets/images/piggy-bank.svg";
 
 const AboutTwo = () => {
   return (

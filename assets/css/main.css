@@ -3427,6 +3427,8 @@ h6 {
   filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
   opacity: 1;
   -webkit-transform: translateY(-120px);
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   transform: translateY(-120px);
   -webkit-transition-delay: 0;
   transition-delay: 0;
