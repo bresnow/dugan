@@ -38,7 +38,7 @@ const MainSlider = () => {
           <Container>
             <Row className="justify-content-end">
               <Col xl={7} lg={12} className="text-right">
-                <p style={{color: '#002a44'}}>You should not be working for retirement.</p>
+                <p style={{color: '#0bdeae'}}>You should not be working for retirement.</p>
                 <h2>
                   Retirement <br /> Should Be
                   <br /> Working For You.
