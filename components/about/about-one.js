@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import about1 from "../../assets/images/logo-gold.png";
 import about2 from "../../assets/images/resources/about-1-1.jpg";
 import about3 from "../../assets/images/resources/about-1-2.jpg";
-import pension from "../../assets/images/dbLogo-dark.svg";
 
 const AboutOne = () => {
   return (
@@ -27,7 +26,6 @@ const AboutOne = () => {
             <Col md={12} lg={4}>
               <div className="block-title">
                 <p>
-                  <img src={pension} width="35" alt="" />
                   Make a Difference
                 </p>
                 <h3>Knowledge is the key to a stress-free financial plan .</h3>

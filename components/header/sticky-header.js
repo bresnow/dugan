@@ -30,7 +30,7 @@ const StickyHeader = ({ extraClassName }) => {
         <div className="logo-box">
           <Link href="/">
             <a aria-label="logo image">
-              <img src={logoLight} width="101" alt="" />
+              <img src={logoLight} width="80" alt="" />
             </a>
           </Link>
         </div>

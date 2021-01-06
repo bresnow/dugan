@@ -48,7 +48,9 @@ const HeaderOne = () => {
   const tagline = {
     fontSize: 13,
     fontWeight: 500,
-    color: '#424445'
+    color: '#424445',
+    marginLeft: -22,
+    marginTop: -15
   }
   return (
     <header className="main-header">

@@ -806,15 +806,15 @@
 
 @media (min-width: 576px) {
   .team-4-col {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 1200px) {
   .team-4-col {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 }
 .team-card__bio {
@@ -828,6 +828,7 @@
 }
 .team-card {
   position: relative;
+  
 }
 
 .event-card:hover .team-card__social {
@@ -857,6 +858,13 @@
 
 .team-card__image > img {
   width: 20%;
+  border-top-left-radius: 185px;
+  border-top-right-radius: 185px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.team-card__image-p > img {
+  width: 40%;
   border-top-left-radius: 185px;
   border-top-right-radius: 185px;
   border-bottom-left-radius: 15px;
@@ -3413,7 +3421,7 @@ h6 {
 
 .main-slider p {
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color: var(--thm-gold);
   filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));

@@ -1,4 +1,5 @@
 import React from "react";
+import {Row} from 'react-bootstrap';
 import Layout from "../components/layout";
 import HeaderOne from "../components/header/header-one";
 import StickyHeader from "../components/header/sticky-header";
@@ -10,20 +11,18 @@ import VideoCard from "../components/videos/video-card";
 import TestimonialsOne from "../components/testimonials/testimonials-one";
 import BrandCarousel from "../components/brand-carousel";
 import Footer from "../components/footer";
-import TeamCarousel from '../components/team/team-carousel';
-
+import TeamCarousel from "../components/team/team-carousel";
 //import FactCounter from "../components/fact-counter";
 const About = () => {
   return (
     <Layout pageTitle="About Us || Dugan Brown || Federal Retirement Experts">
-
       <PageHeader title="About Us" crumbTitle="About" />
       <HeaderOne />
       <StickyHeader />
       <AboutOne />
       <AboutCounter />
       {/* <FactCounter /> */}
-      <div style={{height:100}} />
+      <div style={{ height: 100 }} />
       <TeamCarousel />
       {/* <VideoCard />
       <TestimonialsOne /> */}

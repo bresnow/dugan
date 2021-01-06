@@ -16,15 +16,15 @@ const Footer = () => {
               <div className="footer-widget mb-40 footer-widget__about">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img
+                    <img style={{marginLeft: 40, marginBottom: -20}}
                       src={logoLight}
                       className="footer-widget__logo"
-                      width="160"
+                      width="120"
                       alt=""
                     />
                   </a>
                 </Link>
-                <p>Federal Retirement Experts</p>
+                <p style={{ align: "center" }}>Federal Retirement Experts</p>
                 <ul className="list-unstyled footer-widget__contact">
                   {/* <li>
                     <a href="#">
@@ -38,7 +38,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="azino-icon-pin"></i>545 Metro Place South #100<li> Dublin, OH 43017</li>
+                      <i className="azino-icon-pin"></i>545 Metro Place South
+                      #100<li> Dublin, OH 43017</li>
                     </a>
                   </li>
                 </ul>

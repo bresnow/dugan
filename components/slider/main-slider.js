@@ -11,8 +11,8 @@ SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const MainSlider = () => {
   const pStyle = {
-    fontSize: 30,
-  }
+    fontColor: "blue",
+  };
   const mainSlideOptions = {
     slidesPerView: 1,
     loop: true,
@@ -20,11 +20,11 @@ const MainSlider = () => {
     pagination: {
       el: "#main-slider-pagination",
       type: "bullets",
-      clickable: true
+      clickable: true,
     },
     autoplay: {
-      delay: 10000
-    }
+      delay: 10000,
+    },
   };
   return (
     <section className="main-slider">
@@ -38,9 +38,10 @@ const MainSlider = () => {
           <Container>
             <Row className="justify-content-end">
               <Col xl={7} lg={12} className="text-right">
-                <p style= {pStyle}>You should not be working for retirement.</p>
+                <p style={{color: '#002a44'}}>You should not be working for retirement.</p>
                 <h2>
-                  Retirement <br /> Should Be<br /> Working For You.
+                  Retirement <br /> Should Be
+                  <br /> Working For You.
                 </h2>
                 <a
                   href="/about"
@@ -62,10 +63,14 @@ const MainSlider = () => {
           <Container>
             <Row className="justify-content-end">
               <Col xl={8} lg={12} className="text-right">
-                <p style= {pStyle}>Everyone deserves accurate information regarding their benefits.</p>
+                <p>
+                  Everyone deserves accurate information regarding their
+                  benefits.
+                </p>
                 <h2>
-                  <span className="iconic-text">That Information</span><br /> Should
-                  Also Be<br /> Free.
+                  <span className="iconic-text">That Information</span>
+                  <br /> Should Also Be
+                  <br /> Free.
                 </h2>
                 <a
                   href="/contact"
@@ -78,7 +83,7 @@ const MainSlider = () => {
             </Row>
           </Container>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${banner3})` }}
@@ -94,7 +99,7 @@ const MainSlider = () => {
               </Col>
             </Row>
           </Container>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <div className="swiper-pagination" id="main-slider-pagination"></div>
       </Swiper>
     </section>
