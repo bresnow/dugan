@@ -91,7 +91,7 @@ const TeamCarousel = () => {
             better than anyone else in the nation. You are not just working with
             a retirement expert; you are working with someone who cares about
             your well-being and who strives to deliver top-tier service, each
-            and every day
+            and every day.
           </p>
         </div>
       </Container>
