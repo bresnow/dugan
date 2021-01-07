@@ -3,13 +3,14 @@ import Head from "next/head";
 import MobileNav from "./mobile-nav";
 import SearchPopup from "./search-popup";
 
-import AppleTouch from "../assets/images/favicons/apple-touch-icon.png";
-import Fevicon32 from "../assets/images/favicons/favicon-32x32.png";
-import Fevicon16 from "../assets/images/favicons/favicon-16x16.png";
+import AppleTouch from "../assets/images/favicons/favicon.ico";
+import Fevicon32 from "../assets/images/favicons/favicon.ico";
+import Fevicon16 from "../assets/images/favicons/favicon.ico";
 
 const Layout = ({ pageTitle, children }) => {
   const handleRadius = () => {
-    const dynamicRadius = document.querySelectorAll(".dynamic-radius");
+    const dynamicRadius =
+     document.querySelectorAll(".dynamic-radius");
     dynamicRadius.forEach(function (btn) {
       let btnHeight = btn.offsetHeight;
       btn.style.borderBottomLeftRadius = btnHeight / 2 + "px";

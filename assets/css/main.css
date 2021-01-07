@@ -3392,13 +3392,11 @@ h6 {
   opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  /* -webkit-transform: scale(1);
+  transform: scale(1); */
   mix-blend-mode: overlay;
-  -webkit-transition: -webkit-transform 7000ms ease;
-  transition: -webkit-transform 7000ms ease;
-  transition: transform 7000ms ease;
-  transition: transform 7000ms ease, -webkit-transform 7000ms ease;
+  /* -webkit-transition: -webkit-transform 7000ms ease;
+  transition: -webkit-transform 7000ms ease; */
 }
 
 .main-slider .container {
@@ -3427,8 +3425,6 @@ h6 {
   filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
   opacity: 1;
   -webkit-transform: translateY(-120px);
-    -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
   transform: translateY(-120px);
   -webkit-transition-delay: 0;
   transition-delay: 0;

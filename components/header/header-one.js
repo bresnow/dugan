@@ -58,7 +58,7 @@ const HeaderOne = () => {
         <div className="inner-container">
           <Row>
             <Col sm={12} md={12} lg={12} xl={2}>
-              <div className="logo-box">
+              <div style={{marginTop:-15}} className="logo-box">
                 <Link href="/">
                   <a aria-label="logo image">
                     <img src={logoDark} width="101" alt="" />
