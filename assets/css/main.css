@@ -1940,7 +1940,7 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 500;
   color: var(--thm-special);
   margin: 0;
@@ -3419,7 +3419,7 @@ h6 {
 
 .main-slider p {
   margin: 0;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   color: var(--thm-gold);
   filter: drop-shadow(-0.068em 0.05em 0.1rem var(--thm-black));
@@ -3441,7 +3441,7 @@ h6 {
   margin-bottom: 20px;
   color: #fff;
   filter: drop-shadow(-0.06em 0.05em 0.2rem black);
-  font-size: 100px;
+  font-size: 70px;
   line-height: 1.1;
   font-weight: bold;
   letter-spacing: -0.04em;
@@ -6147,7 +6147,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   color: #7e7e7e;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 34px;
   font-weight: 500;
 }
@@ -6280,7 +6280,7 @@ h6 {
   margin: 0;
   margin-bottom: 45px;
   color: #fff;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 50px;
   white-space: pre-line;
 }
