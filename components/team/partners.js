@@ -11,7 +11,7 @@ const TeamData = [
     image: teamImage1,
     extraClassName: "",
     name: "Wayne Brown",
-    designation: "Partner",
+    designation: "Senior Partner",
     bio:
       "After graduating from Michigan Technological University with a major in Computer Engineering and minors in Electrical Engineering, Physics, & Mathematics, Wayne spent eight years in the United States Air Force, separating at the rank of Captain. Using his strong engineering and mathematical background in conjunction with his experience as a federal employee, he helped hundreds of federal employees across the country by leading the operations team of a financial services and retirement planning firm before branching out with his business partner, Kevin Dugan, to start their own company.",
     social: [
