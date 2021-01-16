@@ -16,16 +16,13 @@ import TeamCarousel from "../components/team/team-carousel";
 const About = () => {
   return (
     <Layout pageTitle="About Us || Dugan Brown || Federal Retirement Experts">
+    <HeaderOne />
       <PageHeader title="About Us" crumbTitle="About" />
-      <HeaderOne />
       <StickyHeader />
       <AboutOne />
       <AboutCounter />
-      {/* <FactCounter /> */}
       <div style={{ height: 100 }} />
       <TeamCarousel />
-      {/* <VideoCard />
-      <TestimonialsOne /> */}
       <BrandCarousel extraClass="client-carousel__has-border-top" />
       <Footer />
     </Layout>

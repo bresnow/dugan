@@ -50,18 +50,15 @@ const FaqOne = () => {
                 colleagues and each person that we help with retirement.
               </p>
             </div>
-            <div className="price-one__image-box">
-              <img src={priceBox} height='100%' alt="" />
+            <div style={{marginTop: -30}} className="price-one__image-box">
               <div className="price-one__image-box-content">
-                <h3 style={{ color: "#424445" }}>
-                  <i className="fa fa-check"></i> With Mindfulness...
-                </h3>
-                <p style={{fontSize: 18}}>
-                   in place as the final component of our core
+                <p style={{ fontSize: 18 }}>
+                  With Mindfulness in place as the final component of our core
                   values, we promote the ideal that everything should be done
-                  with a vigorous amount of conscientiousness, with each of our
-                  actions dedicated to bringing us just a tiny bit closer to our
-                  lofty vision for a world.
+                  with a vigorous amount of conscientiousness, keeping our
+                  foundational principles at the forefront of every interaction
+                  and bringing us just a tiny bit closer to our loftcy vision for
+                  a world.
                 </p>
               </div>
             </div>
