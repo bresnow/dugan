@@ -831,8 +831,8 @@
   
 }
 
-.event-card:hover .team-card__social {
-  opacity: 1;
+ .team-card__social {
+
   visibility: visible;
 }
 
@@ -886,9 +886,9 @@
   left: 0; */
   width: 100%;
   opacity: 1;
-  visibility: hidden;
+  /* visibility: hidden;
   -webkit-transition: 500ms ease;
-  transition: 500ms ease;
+  transition: 500ms ease; */
 }
 
 .team-card__social a {

@@ -39,8 +39,8 @@ Colors should be as follows:
  
 
 General Updates
-
-We want to try the favicon in black instead of gold.
+<!-- 
+We want to try the favicon in black instead of gold. -->
 Could use a little less spacing/buffer between sections on each page.
 <!-- The breadcrumb trail menu is still on each page. -->
 ```Google search on mobile for our site, comes up with an image of a black/white house instead of our actual logo.```
