@@ -19,7 +19,7 @@ const CallToActionTwo = () => {
               <h3>
                 Planning your future ...<br /> Made simple.
               </h3>
-            </div>
+            </div> 
           </Col>
           {/* <Col
             lg={5}
