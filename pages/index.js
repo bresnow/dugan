@@ -24,16 +24,15 @@ const HomeOne = () => {
     // </Layout>
     <Layout pageTitle="Federal Retirement Experts">
       <HeaderOne />
-      <StickyHeader />
       <MainSlider />
-      <CallToActionTwo />
       <AboutTwo />
       <BrandCarousel  />
       <GalleryTestimonials>
         <TestimonialsTwo />
       </GalleryTestimonials>
+    <CallToActionTwo />
       <DonationOptions />
-      <div style={{height: 50}}></div>
+      <div style={{marginTop:-160}}></div>
       <Footer />
     </Layout>
   );

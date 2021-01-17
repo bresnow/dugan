@@ -48,7 +48,6 @@ const Footer = () => {
             <Col lg={3} md={6} sm={12}>
               <div className="footer-widget footer-widget__link mb-40"></div>
             </Col>
-           c */}
           </Row>
         </Container>
       </div>

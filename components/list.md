@@ -8,7 +8,7 @@ Mission Statement
 Vision Statement 
                   i.      A society whose civil servants and military personnel can transition to retirement seamlessly, without financial concerns.
 
-Home Page [Content Clean Up]
+<!-- Home Page [Content Clean Up]
  
 Our mission is to make everyone aware of the control they wield over their own future by developing strategic methods and providing expert aid that guarantees a serene transition from hard-working American to care free retiree.
                   i.      Our mission* is to empower federal employees with control over their future by providing knowledge and financial strategy -- transitioning hard-working Americans to care-free retirees.
@@ -19,7 +19,7 @@ Knowlegable Aide That Cares
 
  
 Achieving our mission does not cost you a single dime. Knowledge, planning and guidance is a right not a service. We'll even help you with the paperwork.
-                  i.      Achieving our mission does not cost you anything. We believe knowledge, planning, and guidance are rights, not services. We'll even help with the paperwork.
+                  i.      Achieving our mission does not cost you anything. We believe knowledge, planning, and guidance are rights, not services. We'll even help with the paperwork. -->
 
 <!-- Core Values [Content Clean Up]
  

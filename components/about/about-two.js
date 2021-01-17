@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import {Link as ScrollLink} from 'react-scroll';
 import { Container, Row, Col } from "react-bootstrap";
 import heart from "../../assets/images/shapes/heart-2-1.png";
 import welcomeImage from "../../assets/images/resources/welcome-1-1.png";
@@ -22,7 +23,12 @@ const AboutTwo = () => {
                 <h3>A Reassuring Plan For Your Future. </h3>
               </div>
               <p className="mb-40 pr-10">
-                Our mission* is to empower federal employees with control over
+                Our <ScrollLink
+            to="mission"
+            smooth={true}
+            duration={500}
+            className="scroll-to-top"
+          ><a href='/'>mission</a></ScrollLink> is to empower federal employees with control over
                 their future by providing knowledge and financial strategy --
                 transitioning hard-working Americans to care-free retirees.
               </p>

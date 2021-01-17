@@ -1,28 +1,30 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Link from 'next/link';
+import Link from "next/link";
 
 const DonationOptions = () => {
   return (
-    <section className="donate-options pt-120 pb-12">
+    <section className="donate-options pt-120">
       <Container>
         <Row>
           <Col lg={6}>
             <div className="donate-options__content">
               <div className="block-title">
-                <p>
-                  Meet With An Expert
-                </p>
+                <p>Meet With An Expert</p>
                 <h3>
-                  The future is in your hands. <br /> We're just here to guide you .
+                  The future is in your hands. <br /> We're just here to guide
+                  you .
                 </h3>
               </div>
               <p>
-                We are the best option concerning federal retirement. Not because of how much
-                we know, or how much more you will gain, but how much we care. The invaluable
-                service that everyone receives is simply our standard practice.  {" "}
+                We are the best option concerning federal retirement. Not
+                because of how much we know, or how much more you will gain, but
+                how much we care. The invaluable service that everyone receives
+                is simply our standard practice.{" "}
               </p>
             </div>
+
+            <div style={{ height: 300 }} className="donate-options__call"></div>
           </Col>
           <Col lg={6}>
             <form
@@ -31,15 +33,14 @@ const DonationOptions = () => {
               data-wow-duration="1500ms"
             >
               <h3 className="text-center">Start Planning</h3>
-              <p style={{paddingHorizontal:30}} className="text-center">
-              Take the first step and book a meeting with an expert from
-              our team to realize your future's true potential.
+              <p className="text-center">
+                Take the first step and book a meeting with an expert from our
+                team to realize your future's true potential.
               </p>
               <Link href="/contact">
-              <button type="submit" className="thm-btn ">
-                
-                Schedule A Consultation
-              </button>
+                <button type="submit" className="thm-btn ">
+                  Schedule A Consultation
+                </button>
               </Link>
             </form>
           </Col>

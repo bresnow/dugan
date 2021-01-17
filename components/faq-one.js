@@ -5,7 +5,7 @@ import AccordionContext from "react-bootstrap/AccordionContext";
 import heart from "../assets/images/shapes/heart-2-1.png";
 import heart1 from "../assets/images/shapes/about-count-heart-1-1.png";
 import faqImage from "../assets/images/resources/faq-box-1-1.jpg";
-import priceBox from "../assets/images/resources/price-box-1-1.jpg";
+import {Link as ScrollLink} from 'react-scroll'
 
 const ContextAwareToggle = ({ children, eventKey, callback }) => {
   const currentEventKey = useContext(AccordionContext);
@@ -45,7 +45,7 @@ const FaqOne = () => {
               <p>
                 At Dugan Brown, we proudly base our core values on these same
                 ideals. Integrity, Service, and Excellence are crucial parts of
-                our company’s mission, as well as our vision for the world. We
+                our company’s <a href='/#mission'>mission</a>, as well as our <a href='/#mission'>vision</a> for the world. We
                 strive to maintain these principles in our interactions with
                 colleagues and each person that we help with retirement.
               </p>
@@ -57,7 +57,7 @@ const FaqOne = () => {
                   values, we promote the ideal that everything should be done
                   with a vigorous amount of conscientiousness, keeping our
                   foundational principles at the forefront of every interaction
-                  and bringing us just a tiny bit closer to our loftcy vision for
+                  and bringing us just a tiny bit closer to our lofty <a href='/#mission'>vision</a> for
                   a world.
                 </p>
               </div>
