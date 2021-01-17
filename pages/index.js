@@ -27,10 +27,11 @@ const HomeOne = () => {
       <MainSlider />
       <AboutTwo />
       <BrandCarousel  />
+      <div style={{marginTop:-60}}></div>
       <GalleryTestimonials>
         <TestimonialsTwo />
       </GalleryTestimonials>
-    <CallToActionTwo />
+    <CallToActionTwo />c
       <DonationOptions />
       <div style={{marginTop:-160}}></div>
       <Footer />
