@@ -48,33 +48,6 @@ const Footer = () => {
             <Col lg={3} md={6} sm={12}>
               <div className="footer-widget footer-widget__link mb-40"></div>
             </Col>
-            <Col lg={5} md={6} sm={12}>
-              <div className="footer-widget mb-40 footer-widget__newsletter">
-                <h3 className="footer-widget__title">Newsletter</h3>
-                <p>Signup now to get daily latest news & updates from us</p>
-                <form
-                  data-url="#"
-                  className="footer-widget__newsletter-form mc-form"
-                >
-                  <label htmlFor="mc-email" className="sr-only">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    name="EMAIL"
-                    id="mc-email"
-                    className=""
-                    placeholder="Email address"
-                  />
-                  <div className="footer-widget__newsletter-btn-wrap d-flex justify-content-end">
-                    <button type="submit" className="thm-btn ">
-                      Subscribe Now
-                    </button>
-                  </div>
-                </form>
-                <div className="mc-form__response"></div>
-              </div>
-            </Col>
           </Row>
         </Container>
       </div>
@@ -90,18 +63,18 @@ const Footer = () => {
           </ScrollLink>
           <p>© Copyright 2020 Dugan Brown Retirement</p>
           <div className="footer-social">
-            <a href="#" aria-label="twitter">
+            {/* <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" aria-label="facebook">
+            </a> */}
+            <a href="http://facebook.com/duganbrownretirement" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="#" aria-label="pinterest">
+            {/* <a href="#" aria-label="pinterest">
               <i className="fab fa-pinterest-p"></i>
             </a>
             <a href="#" aria-label="instagram">
               <i className="fab fa-instagram"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

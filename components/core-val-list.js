@@ -5,33 +5,34 @@ import Link from "next/link";
 import image1 from "../assets/images/resources/service-1-1.jpg";
 import image2 from "../assets/images/resources/service-1-2.jpg";
 import image3 from "../assets/images/resources/service-1-3.jpg";
+import image4 from "../assets/images/resources/service-1-4.jpg";
 
 
 const CORE_VAL_DATA = [
     {
-        extraClassName: "background-primary",
+        extraClassName: "background-secondary",
         image: image1,
         title: `Integrity First`,
         text: "",
         link: "#",
       },
       {
-        extraClassName: "background-white",
+        extraClassName: "background-gold",
         image: image2,
         title: `Service Before Self`,
         text: "",
         link: "#",
       },
       {
-        extraClassName: "background-secondary",
+        extraClassName: "background-primary",
         image: image3,
         title: `Excellence In All We Do`,
         text: "",
         link: "#",
       },
       {
-        extraClassName: "background-gold",
-        image: image3,
+        extraClassName: "background-special",
+        image: image4,
         title: `Mindfulness At All Times`,
         text: "",
         link: "#",

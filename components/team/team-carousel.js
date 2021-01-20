@@ -52,7 +52,7 @@ const TeamData = [
 
   {
     image: teamImage3,
-    extraClassName: "content-bg-3",
+    extraClassName: "content-bg-cc3",
     name: "Alex Leyberman",
     designation: "Associate",
     bio:
@@ -116,7 +116,7 @@ const TeamCarousel = () => {
                     className="team-card__image"
                     style={{ paddingTop: 30, marginBottom: -20 }}
                   >
-                    <img src={image} alt="" />
+                    <img src={image}  alt="" />
                   </div>
                   <div className="event-card mb-50" style={{ padding: 30 }}>
                     <div

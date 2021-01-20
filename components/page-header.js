@@ -13,7 +13,7 @@ const PageHeader = ({ title, crumbTitle }) => {
       <div className="container" 
    >
         <h2>{title}</h2>
-        <ul className="thm-breadcrumb list-unstyled ">
+        {/* <ul className="thm-breadcrumb list-unstyled ">
           <li>
             <Link href="/">
               <a>Home</a>
@@ -23,7 +23,7 @@ const PageHeader = ({ title, crumbTitle }) => {
           <li>
             <span>{crumbTitle}</span>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

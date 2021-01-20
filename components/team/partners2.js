@@ -12,7 +12,7 @@ const TeamData = [
 
     extraClassName: "",
     name: "Kevin Dugan",
-    designation: "Partner",
+    designation: " Senior Partner",
     bio:
       "Kevin has helped hundreds of federal employees across the Ohio Valley plan their retirements over the last several years. Prior to being a financial planner, he worked as a health insurance broker, where he enabled people to make better decisions with their medical benefits. In 2007, Kevin graduated Cum Laude with a bachelor’s degree in Business Economics and a minor in Mathematics from Loyola University Maryland. Kevin and his long-time business partner, Wayne Brown, now operate their own company with a shared vision of helping as many federal employees as possible.",
     social: [

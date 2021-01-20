@@ -22,13 +22,13 @@ const HeaderOne = () => {
         e.preventDefault();
       });
     // search toggler
-    let searchCloser = document.querySelectorAll(".search-toggler");
-    searchCloser.forEach((searchCloserBtn) => {
-      searchCloserBtn.addEventListener("click", function (e) {
-        document.querySelector(".search-popup").classList.toggle("active");
-        e.preventDefault();
-      });
-    });
+    // let searchCloser = document.querySelectorAll(".search-toggler");
+    // searchCloser.forEach((searchCloserBtn) => {
+    //   searchCloserBtn.addEventListener("click", function (e) {
+    //     document.querySelector(".search-popup").classList.toggle("active");c
+    //     e.preventDefault();
+    //   });
+    // });
 
     //Close Mobile Menu
     let sideMenuCloser = document.querySelectorAll(
@@ -49,7 +49,6 @@ const HeaderOne = () => {
     fontSize: 13,
     fontWeight: 500,
     color: '#424445',
-    marginLeft: -22,
     marginTop: -15
   }
   return (
@@ -58,10 +57,10 @@ const HeaderOne = () => {
         <div className="inner-container">
           <Row>
             <Col sm={12} md={12} lg={12} xl={2}>
-              <div className="logo-box">
+              <div  className="logo-box">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img src={logoDark} width="101" alt="" />
+                    <img style={{marginLeft:42}} src={logoDark} width="60" alt="" />
                   </a>
                 </Link>
                 <span className="fa fa-bars mobile-nav__toggler"></span>
@@ -77,19 +76,19 @@ const HeaderOne = () => {
             >
               <div className="main-header__top">
               <p>                                    </p>
-                <div className="main-header__social">
-                  <a href="#" aria-label="twitter">
+                <div className="footer-social">
+                  {/* <a href="#" aria-label="twitter">
                     <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#" aria-label="facebook">
+                  </a> */}
+                  <a href="http://facebook.com/duganbrownretirement" aria-label="facebook">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                  <a href="#" aria-label="pinterest">
+                  {/* <a href="#" aria-label="pinterest">
                     <i className="fab fa-pinterest-p"></i>
                   </a>
                   <a href="#" aria-label="instagram">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <nav className="main-menu dynamic-radius">

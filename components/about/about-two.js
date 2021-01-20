@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import {Link as ScrollLink} from 'react-scroll';
 import { Container, Row, Col } from "react-bootstrap";
 import heart from "../../assets/images/shapes/heart-2-1.png";
 import welcomeImage from "../../assets/images/resources/welcome-1-1.png";
@@ -18,51 +19,56 @@ const AboutTwo = () => {
           <Col xl={6}>
             <div className="about-two__content">
               <div className="block-title">
-                <p>
-                  Our Mission
-                </p>
+                <p>Our Mission</p>
                 <h3>A Reassuring Plan For Your Future. </h3>
               </div>
               <p className="mb-40 pr-10">
-                Our mission is to make everyone aware of the control they wield
-                over their own future by developing strategic methods and providing 
-                expert aid that guarantees a serene transition from hard-working 
-                American to care free retiree. 
+                Our <ScrollLink
+            to="mission"
+            smooth={true}
+            duration={500}
+            className="scroll-to-top"
+          ><a href='/'>mission</a></ScrollLink> is to empower federal employees with control over
+                their future by providing knowledge and financial strategy --
+                transitioning hard-working Americans to care-free retirees.
               </p>
               <Row>
                 <Col md={6}>
                   <div className="about-two__box">
                     <h3>
-                      <i className="azino-icon-confirmation"></i> Knowlegable Aide
-                       That Cares
+                      <i className="azino-icon-confirmation"></i> Experts Who
+                      Care
                     </h3>
                     <p>
-                    A relationship with one of our experts begins with 
-                    your first consultation and lasts the rest of your life.
+                      A relationship with one of our experts begins with your
+                      first consultation and lasts the rest of your life.
                     </p>
                   </div>
                   <div className="about-two__box">
                     <h3>
-                      <i className="azino-icon-confirmation"></i> Stress-Free 
+                      <i className="azino-icon-confirmation"></i> Stress-Free
                       and Free of Charge
                     </h3>
                     <p>
-                      Achieving our mission does not cost you a single dime. Knowledge,
-                      planning and guidance is a right not a service. We'll even help you with 
-                      the paperwork.
+                      Achieving our mission does not cost you anything. We
+                      believe knowledge, planning, and guidance are rights, not
+                      services. We'll even help with the paperwork.
                     </p>
                   </div>
                 </Col>
                 <Col md={6}>
                   <div className="about-two__box-two">
-                    <i >
-                <img src={aboutImage} width='130' alt="" />
-            </i>
-                    <h3>Take advantage of the control and freedom you already have.</h3>
+                    <i>
+                      <img src={aboutImage} width="130" alt="" />
+                    </i>
+                    <h3>
+                      Take advantage of the control and freedom you already
+                      have.
+                    </h3>
                   </div>
-              <Link href="/contact">
-                <a className="thm-btn dynamic-radius">Schedule A Meeting</a>
-              </Link>
+                  <Link href="/contact">
+                    <a className="thm-btn dynamic-radius">Schedule A Meeting</a>
+                  </Link>
                 </Col>
               </Row>
             </div>

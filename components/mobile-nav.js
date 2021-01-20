@@ -16,7 +16,7 @@ const MobileNav = () => {
         <div className="logo-box">
           <Link href="/">
             <a aria-label="logo image">
-              <img src={logoLight} width="150" alt="" />
+              <img src={logoLight} width="80" alt="" />
             </a>
           </Link>
         </div>
@@ -24,7 +24,7 @@ const MobileNav = () => {
           <NavLinks />
         </div>
 
-        <ul className="mobile-nav__contact list-unstyled">
+        {/* <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
             <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
@@ -33,21 +33,21 @@ const MobileNav = () => {
             <i className="azino-icon-telephone"></i>
             <a href="tel:666-888-0000">666 888 0000</a>
           </li>
-        </ul>
+        </ul> */}
         <div className="mobile-nav__top">
           <div className="mobile-nav__social">
-            <a href="#" aria-label="twitter">
+            {/* <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" aria-label="facebook">
+            </a> */}
+            <a href="http://facebook.com/duganbrownretirement" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="#" aria-label="pinterest">
+            {/* <a href="#" aria-label="pinterest">
               <i className="fab fa-pinterest-p"></i>
             </a>
             <a href="#" aria-label="instagram">
               <i className="fab fa-instagram"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import AccordionContext from "react-bootstrap/AccordionContext";
 import heart from "../assets/images/shapes/heart-2-1.png";
 import heart1 from "../assets/images/shapes/about-count-heart-1-1.png";
 import faqImage from "../assets/images/resources/faq-box-1-1.jpg";
-import priceBox from "../assets/images/resources/price-box-1-1.jpg";
+import {Link as ScrollLink} from 'react-scroll'
 
 const ContextAwareToggle = ({ children, eventKey, callback }) => {
   const currentEventKey = useContext(AccordionContext);
@@ -45,23 +45,20 @@ const FaqOne = () => {
               <p>
                 At Dugan Brown, we proudly base our core values on these same
                 ideals. Integrity, Service, and Excellence are crucial parts of
-                our company’s mission, as well as our vision for the world. We
+                our company’s <a href='/#mission'>mission</a>, as well as our <a href='/#mission'>vision</a> for the world. We
                 strive to maintain these principles in our interactions with
                 colleagues and each person that we help with retirement.
               </p>
             </div>
-            <div className="price-one__image-box">
-              <img src={priceBox} height='100%' alt="" />
+            <div style={{marginTop: -30}} className="price-one__image-box">
               <div className="price-one__image-box-content">
-                <h3 style={{ color: "#424445" }}>
-                  <i className="fa fa-check"></i> With Mindfulness...
-                </h3>
-                <p style={{fontSize: 18}}>
-                   in place as the final component of our core
+                <p style={{ fontSize: 18 }}>
+                  With Mindfulness in place as the final component of our core
                   values, we promote the ideal that everything should be done
-                  with a vigorous amount of conscientiousness, with each of our
-                  actions dedicated to bringing us just a tiny bit closer to our
-                  lofty vision for a world.
+                  with a vigorous amount of conscientiousness, keeping our
+                  foundational principles at the forefront of every interaction
+                  and bringing us just a tiny bit closer to our lofty <a href='/#mission'>vision</a> for
+                  a world.
                 </p>
               </div>
             </div>
