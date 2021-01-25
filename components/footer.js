@@ -26,11 +26,10 @@ const Footer = () => {
                 </Link>
                 <p style={{ align: "center" }}>Federal Retirement Experts</p>
                 <ul className="list-unstyled footer-widget__contact">
-                  {/* <li>
-                    <a href="#">
-                      <i className="azino-icon-telephone"></i>666 888 0000
-                    </a>
-                  </li> */}
+                <li>
+                    <i className="azino-icon-telephone"></i>
+                    <a href="tel:8773273239">877-DB-READY</a>
+                  </li> 
                   <li>
                     <a href="#">
                       <i className="azino-icon-email"></i>support@duganbrown.com

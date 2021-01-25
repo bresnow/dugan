@@ -101,10 +101,10 @@ const HeaderOne = () => {
                     <i className="azino-icon-email"></i>
                     <a href="mailto:support@duganbrown.com">support@duganbrown.com</a>
                   </li>
-                  {/* <li>
+                 <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:888-555-3333">888 424 4450</a>
-                  </li> */}
+                    <a href="tel:8773273239">877-DB-READY</a>
+                  </li> 
                 </ul>
               </div>
             </Col>
