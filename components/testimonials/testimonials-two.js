@@ -12,28 +12,22 @@ SwiperCore.use([Autoplay, Thumbs]);
 
 const TESTIMONIALS_DATA = [
   {
-    // image: testimonialImage2,
-    name: "Steve Donovan",
-    text:
-      "Kevin Dugan listened carefully to my retirement goals and plans and I am now financially rock solid and newly retired. I cannot recommend him highly enough.",
-  },
-  {
-    // image: testimonialImag,
-    name: "Frank Lisath",
-    text:
-      "Kevin Dugan did an excellent job helping me and my wife Joan through the difficult federal retirement process. He also helped us tremendously with financial planning and gave us the advice we were looking for. His knowledge was phenomenal.",
-  },
-  {
-    // image: testimonialImage3,
-    name: "Joseph Williams",
-    text:
-      "Kevin is a great person, he explained everything about retirement so you could understand it more clearly. He broke it down on each phase of what going to be happening when I retire.",
-  },
-  {
     // image: testimonialImage4,
-    name: "Karin Haser",
+    name: "James Greenway",
     text:
-      "Kevin Dugan went above and beyond to help me understand retirement and to take the time to help me set up for my future investments. He’s very thorough and is very great to work with I would highly recommend him.",
+      "Sam got me going in the right direction and helped me prepare for my future. He is top notch and knows everything you need for the transition to retirement. Thank you Sam.",
+  },
+  {
+    // image: testimonialImage5,
+    name: "Jacqueline Teen-Williams",
+    text:
+      "Sam Eberts analyzed my work history with the VA along with my retirement goals. He clarified misinformation that I had acquired throughout the years from other federal employees. In a nutshell, he explained where I am now verses what actions are needed to retire comfortably.",
+  },
+  {
+    // image: testimonialImage5,
+    name: "Shaprita Williams",
+    text:
+      "I had wonderful conversation with Mary Eberts about my retirement strategy. It was a subject that I was hesitant about, but she really made me feel good about the strategy we discussed. She was very knowledgeable about the situation. She gave me more information than I expected.",
   },
   {
     // image: testimonialImage5,
@@ -66,29 +60,36 @@ const TESTIMONIALS_DATA = [
       "I spoke with Alex who was very knowledgeable and offered me valuable advice moving forward towards my retirement goals. I highly recommend!",
   },
   {
-    // image: testimonialImag,
-    name: "Susan Prystauk",
+    // image: testimonialImage2,
+    name: "Steve Donovan",
     text:
-      "Alex has been so helpful in helping me determine what I need to do going forward. I already feel like I’m moving toward a secure and enjoyable retirement! Thanks Alex for your assistance!",
+      "Kevin Dugan listened carefully to my retirement goals and plans and I am now financially rock solid and newly retired. I cannot recommend him highly enough.",
+  },
+  {
+    // image: testimonialImag,
+    name: "Frank Lisath",
+    text:
+      "Kevin Dugan did an excellent job helping me and my wife Joan through the difficult federal retirement process. He also helped us tremendously with financial planning and gave us the advice we were looking for. His knowledge was phenomenal.",
   },
   {
     // image: testimonialImage3,
-    name: "Khandi KariLynn Myers",
+    name: "Joseph Williams",
     text:
-      "Very good conversation with Sam Eberts about my retirement. He is knowledgeable an s courteous. I recommend him.",
+      "Kevin is a great person, he explained everything about retirement so you could understand it more clearly. He broke it down on each phase of what going to be happening when I retire.",
   },
   {
     // image: testimonialImage4,
-    name: "Deena Green",
+    name: "Karin Haser",
     text:
-      "Sam was very helpful and knowledgeable. Saved us money on our first visit with information on ways to utilize an inheritance.",
+      "Kevin Dugan went above and beyond to help me understand retirement and to take the time to help me set up for my future investments. He’s very thorough and is very great to work with I would highly recommend him.",
   },
   {
-    // image: testimonialImage5,
-    name: "Shirletta Murray",
+    // image: testimonialImag,
+    name: "Tom M. Sullivan",
     text:
-      "Sam Ebert is my consultant and he did a phenomenal job helping me with my retirement plans. I wish I had knew this information 5 years ago when I worked overseas, I would have saved a lot more money.",
+      "The debt I now owe Sam is a lifelong debt for the whole of my retirement. He wasn't just a knowledgeable counselor; I trust he will be a friend for years to come.",
   },
+
   {
     // image: testimonialImag,
     name: "Tammie Brown Satterfield ",
@@ -121,6 +122,36 @@ const TESTIMONIALS_DATA = [
   },
   {
     // image: testimonialImage3,
+    name: "Stephen Walsh",
+    text:
+      "Mary Eberts took all the information and gave me a look into my retirement at age 60 and 62. Considering I am 56, the evaluations gave me a clearer picture of my future. I am appreciative and thank Mary for her time. I look forward to working with her from now to retirement whenever that may be.",
+  },
+  {
+    // image: testimonialImag,
+    name: "Susan Prystauk",
+    text:
+      "Alex has been so helpful in helping me determine what I need to do going forward. I already feel like I’m moving toward a secure and enjoyable retirement! Thanks Alex for your assistance!",
+  },
+  {
+    // image: testimonialImage3,
+    name: "Khandi KariLynn Myers",
+    text:
+      "Very good conversation with Sam Eberts about my retirement. He is knowledgeable an s courteous. I recommend him.",
+  },
+  {
+    // image: testimonialImage4,
+    name: "Deena Green",
+    text:
+      "Sam was very helpful and knowledgeable. Saved us money on our first visit with information on ways to utilize an inheritance.",
+  },
+  {
+    // image: testimonialImage5,
+    name: "Shirletta Murray",
+    text:
+      "Sam Ebert is my consultant and he did a phenomenal job helping me with my retirement plans. I wish I had knew this information 5 years ago when I worked overseas, I would have saved a lot more money.",
+  },
+  {
+    // image: testimonialImage3,
     name: "Sharon Clinton",
     text:
       "Working with Sam Eberts has been a pleasant experience. I would highly recommend him to anyone considering their retirement options. He is one of the best.",
@@ -136,36 +167,6 @@ const TESTIMONIALS_DATA = [
     name: "Doug Leverenz",
     text:
       "After a couple conversations with Sam Eberts I feel much more confident about retirement. He explained so many strategies helped me make a plan. It feels good having him in my corner.",
-  },
-  {
-    // image: testimonialImag,
-    name: "Tom M. Sullivan",
-    text:
-      "The debt I now owe Sam is a lifelong debt for the whole of my retirement. He wasn't just a knowledgeable counselor; I trust he will be a friend for years to come.",
-  },
-  {
-    // image: testimonialImage3,
-    name: "Stephen Walsh",
-    text:
-      "Mary Eberts took all the information and gave me a look into my retirement at age 60 and 62. Considering I am 56, the evaluations gave me a clearer picture of my future. I am appreciative and thank Mary for her time. I look forward to working with her from now to retirement whenever that may be.",
-  },
-  {
-    // image: testimonialImage4,
-    name: "James Greenway",
-    text:
-      "Sam got me going in the right direction and helped me prepare for my future. He is top notch and knows everything you need for the transition to retirement. Thank you Sam.",
-  },
-  {
-    // image: testimonialImage5,
-    name: "Jacqueline Teen-Williams",
-    text:
-      "Sam Eberts analyzed my work history with the VA along with my retirement goals. He clarified misinformation that I had acquired throughout the years from other federal employees. In a nutshell, he explained where I am now verses what actions are needed to retire comfortably.",
-  },
-  {
-    // image: testimonialImage5,
-    name: "Shaprita Williams",
-    text:
-      "I had wonderful conversation with Mary Eberts about my retirement strategy. It was a subject that I was hesitant about, but she really made me feel good about the strategy we discussed. She was very knowledgeable about the situation. She gave me more information than I expected.",
   },
 ];
 
