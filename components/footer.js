@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
-import logoLight from "../assets/images/logo-light.png";
+import logoLight from "../assets/images/signature-logo-white.png";
 // import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
 // import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
 
@@ -16,19 +16,28 @@ const Footer = () => {
               <div className="footer-widget mb-40 footer-widget__about">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img style={{marginLeft: 40, marginBottom: -20}}
+                    <img style={{ marginBottom: -20}}
                       src={logoLight}
                       className="footer-widget__logo"
-                      width="120"
+                      width="220"
                       alt=""
                     />
                   </a>
                 </Link>
-                <p style={{ align: "center" }}>Federal Retirement Experts</p>
+                <p style={{ align: "center" }}></p>
                 <ul className="list-unstyled footer-widget__contact">
                 <li>
                     <i className="azino-icon-telephone"></i>
                     <a href="tel:8773273239">877-DB-READY</a>
+                      <p
+                        style={{
+                          color: "grey",
+                          marginLeft: 40,
+                          marginTop: -5,
+                        }}
+                      >
+                        (877-327-3239)
+                      </p>
                   </li> 
                   <li>
                     <a href="#">
@@ -60,7 +69,7 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2020 Dugan Brown Retirement</p>
+          <p>© Copyright 2021 Dugan Brown | Federal Retirement Experts</p>
           <div className="footer-social">
             {/* <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>

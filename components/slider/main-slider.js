@@ -36,19 +36,18 @@ const MainSlider = () => {
           ></div>
 
           <Container>
-            <Row className="justify-content-end">
-              <Col xl={7} lg={12} className="text-right">
-                <p style={{color: '#0bdeae'}}>You should not be working for retirement.</p>
+            <Row className="justify-content-start">
+              <Col xl={7} lg={12} className="text-left">
+                <p style={{color: '#0bdeae', fontSize: 55}}>FREE</p>
                 <h2>
-                  Retirement <br /> Should Be
-                  <br /> Working For You.
+                  Federal Retirement<br /> Consultations
                 </h2>
                 <a
                   href="/about"
                   data-target=".core-values"
                   className="scroll-to-target thm-btn"
                 >
-                  Learn More
+                  Learn More 
                 </a>
               </Col>
             </Row>

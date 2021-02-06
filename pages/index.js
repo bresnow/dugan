@@ -17,23 +17,23 @@ import MainSlider2 from "../components/slider/soon-slider";
 
 const HomeOne = () => {
   return (
-
     // <Layout pageTitle="Federal Retirement Experts | Coming Soon">
     //   <MainSlider2 />
     //   <CallToActionTwo />
     // </Layout>
     <Layout pageTitle="Federal Retirement Experts">
       <HeaderOne />
+      <StickyHeader extraClassName="stricky-header-two" />
       <MainSlider />
       <AboutTwo />
-      <BrandCarousel  />
-      <div style={{marginTop:-60}}></div>
+      <BrandCarousel />
+      <div style={{ marginTop: -60 }}></div>
       <GalleryTestimonials>
         <TestimonialsTwo />
       </GalleryTestimonials>
-    <CallToActionTwo />c
+      <CallToActionTwo />c
       <DonationOptions />
-      <div style={{marginTop:-160}}></div>
+      <div style={{ marginTop: -160 }}></div>
       <Footer />
     </Layout>
   );

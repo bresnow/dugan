@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import about1 from "../../assets/images/logo-gold.png";
 import about2 from "../../assets/images/resources/about-1-1.jpg";
 import about3 from "../../assets/images/resources/about-1-2.jpg";
 
@@ -9,9 +8,6 @@ const AboutOne = () => {
     <section className="about-one pt-120 pb-40">
       <Container>
         <Row>
-          <div className="about-one__award">
-            <img src={about1} width='100' alt="" />
-          </div>
           <Col lg={6}>
             <img src={about2} alt="" className="img-fluid" />
           </Col>

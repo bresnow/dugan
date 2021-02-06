@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import NavLinks from "./nav-links";
-import logoDark from "../../assets/images/logo-dark.png";
+import logoDark from "../../assets/images/signature-logo.png";
 
 const HeaderOne = () => {
   useEffect(() => {
@@ -57,15 +57,20 @@ const HeaderOne = () => {
         <div className="inner-container">
           <Row>
             <Col sm={12} md={12} lg={12} xl={2}>
-              <div  className="logo-box">
+              <div className="logo-box">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img style={{marginLeft:42}} src={logoDark} width="60" alt="" />
+                    <img
+                      style={{ marginLeft: -100, marginTop: 5 }}
+                      src={logoDark}
+                      width="250"
+                      alt=""
+                    />
                   </a>
                 </Link>
                 <span className="fa fa-bars mobile-nav__toggler"></span>
               </div>
-              <p style= {tagline}>Federal Retirement Experts</p>
+              {/* <p style= {tagline}>Federal Retirement Experts</p> */}
             </Col>
             <Col
               sm={12}
@@ -75,12 +80,15 @@ const HeaderOne = () => {
               className="d-none d-md-none d-lg-none d-xl-block"
             >
               <div className="main-header__top">
-              <p>                                    </p>
+                <p> </p>
                 <div className="footer-social">
                   {/* <a href="#" aria-label="twitter">
                     <i className="fab fa-twitter"></i>
                   </a> */}
-                  <a href="http://facebook.com/duganbrownretirement" aria-label="facebook">
+                  <a
+                    href="http://facebook.com/duganbrownretirement"
+                    aria-label="facebook"
+                  >
                     <i className="fab fa-facebook-square"></i>
                   </a>
                   {/* <a href="#" aria-label="pinterest">
@@ -99,12 +107,25 @@ const HeaderOne = () => {
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <i className="azino-icon-email"></i>
-                    <a href="mailto:support@duganbrown.com">support@duganbrown.com</a>
+                    <a href="mailto:support@duganbrown.com">
+                      support@duganbrown.com
+                    </a>
                   </li>
-                 <li>
+                  <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:8773273239">877-DB-READY</a>
-                  </li> 
+                    <a href="tel:8773273239" style={{fontSize: 16}}>
+                      877-DB-READY
+                      <p
+                        style={{
+                          color: "grey",
+                          marginLeft: -4,
+                          marginBottom: 0,
+                        }}
+                      >
+                        (877-327-3239)
+                      </p>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Col>

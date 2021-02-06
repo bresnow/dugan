@@ -1770,9 +1770,17 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "ITCGaramondStd-Bd";
+  src: url("../fonts/ITCGaramondStd-Bd.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 :root {
   --thm-font: "Jost", sans-serif;
   --heading-font: "Libre Baskerville", serif;
+  --title-font: "ITCGaramondStd-Bd", serif;
   --thm-color: #424445;
   --thm-color-rgb: 126, 126, 126;
   --thm-base: #0bdeae;
@@ -1814,7 +1822,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
+  font-family: var(--title-font);
   color: var(--thm-black);
 }
 
@@ -3519,7 +3527,7 @@ h6 {
   z-index: 10;
   bottom: auto;
   top: 50%;
-  left: 50%;
+  left: 40%;
   width: 100%;
   max-width: 1170px;
   -webkit-transform: translate(-50%, calc(-50% + 95px));

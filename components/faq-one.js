@@ -45,82 +45,20 @@ const FaqOne = () => {
               <p>
                 At Dugan Brown, we proudly base our core values on these same
                 ideals. Integrity, Service, and Excellence are crucial parts of
-                our company’s <a href='/#mission'>mission</a>, as well as our <a href='/#mission'>vision</a> for the world. We
-                strive to maintain these principles in our interactions with
-                colleagues and each person that we help with retirement.
+                our company’s <a href="/#mission">mission</a>, as well as our{" "}
+                <a href="/#mission">vision</a> for the world. We strive to
+                maintain these principles in our interactions with colleagues
+                and each person that we help with retirement. <br />
+                <br /> With Mindfulness in place as the final component of our
+                core values, we promote the ideal that everything should be done
+                with a vigorous amount of conscientiousness, keeping our
+                foundational principles at the forefront of every interaction
+                and bringing us just a tiny bit closer to our lofty{" "}
+                <a href="/#mission">vision</a> for a world.
               </p>
             </div>
-            <div style={{marginTop: -30}} className="price-one__image-box">
-              <div className="price-one__image-box-content">
-                <p style={{ fontSize: 18 }}>
-                  With Mindfulness in place as the final component of our core
-                  values, we promote the ideal that everything should be done
-                  with a vigorous amount of conscientiousness, keeping our
-                  foundational principles at the forefront of every interaction
-                  and bringing us just a tiny bit closer to our lofty <a href='/#mission'>vision</a> for
-                  a world.
-                </p>
-              </div>
-            </div>
           </Col>
-          {/* </Col>
-          <Col lg={6}>
-            <div className="faq-one__content">
-              <div className="block-title">
-                <p>
-                  <img src={heart} width="15" alt="" />
-                  Help People Now
-                </p>
-                <h3>
-                  Charity for the people <br /> you care about.
-                </h3>
-              </div>
-
-              <Accordion
-                as="ul"
-                id="accordion"
-                defaultActiveKey="1"
-                className="list-unstyled"
-              >
-                <Card as="li">
-                  <ContextAwareToggle eventKey="0">
-                    Make a difference in their life
-                  </ContextAwareToggle>
-                  <Accordion.Collapse eventKey="0">
-                    <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
-                    </p>
-                  </Accordion.Collapse>
-                </Card>
-                <Card as="li">
-                  <ContextAwareToggle eventKey="1">
-                    Make a difference in their life
-                  </ContextAwareToggle>
-                  <Accordion.Collapse eventKey="1">
-                    <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
-                    </p>
-                  </Accordion.Collapse>
-                </Card>
-                <Card as="li">
-                  <ContextAwareToggle eventKey="2">
-                    Make a difference in their life
-                  </ContextAwareToggle>
-                  <Accordion.Collapse eventKey="2">
-                    <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
-                    </p>
-                  </Accordion.Collapse>
-                </Card>
-              </Accordion>
-            </div>
-          </Col> */}
+       
           <Col lg={6}>
             <div className="about-counter__image clearfix">
               <div className="about-counter__image-content">
