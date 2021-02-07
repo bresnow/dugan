@@ -26,14 +26,13 @@ const HomeOne = () => {
       <StickyHeader extraClassName="stricky-header-two" />
       <MainSlider />
       <AboutTwo />
-      <BrandCarousel />
       <div style={{ marginTop: -60 }}></div>
       <GalleryTestimonials>
         <TestimonialsTwo />
       </GalleryTestimonials>
-      <CallToActionTwo />c
+      {/* <CallToActionTwo />c */}
       <DonationOptions />
-      <div style={{ marginTop: -160 }}></div>
+      <BrandCarousel />
       <Footer />
     </Layout>
   );

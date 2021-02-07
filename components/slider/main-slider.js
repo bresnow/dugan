@@ -5,7 +5,7 @@ import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 
 import banner1 from "../../assets/images/main-slider/group-photo.jpg";
 import banner2 from "../../assets/images/main-slider/lady-smartphone.jpg";
-import banner3 from "../../assets/images/main-slider/workshop.jpg";
+import banner3 from "../../assets/images/group-trio.png";
 
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
@@ -15,7 +15,7 @@ const MainSlider = () => {
   };
   const mainSlideOptions = {
     slidesPerView: 1,
-    loop: true,
+    loop: false,
     effect: "fade",
     pagination: {
       el: "#main-slider-pagination",
@@ -38,22 +38,28 @@ const MainSlider = () => {
           <Container>
             <Row className="justify-content-start">
               <Col xl={7} lg={12} className="text-left">
-                <p style={{color: '#0bdeae', fontSize: 55}}>FREE</p>
+                <p style={{ color: "#0bdeae", fontSize: 55 }}>FREE</p>
                 <h2>
-                  Federal Retirement<br /> Consultations
+                  Federal Retirement
+                  <br /> Consultations
                 </h2>
                 <a
                   href="/about"
                   data-target=".core-values"
                   className="scroll-to-target thm-btn"
                 >
-                  Learn More 
+                  Learn More
                 </a>
               </Col>
+              {/* <Col>
+                <div className='p-120 '>
+                  <img src={banner3} />
+                </div>
+              </Col> */}
             </Row>
           </Container>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${banner2})` }}
@@ -81,24 +87,8 @@ const MainSlider = () => {
               </Col>
             </Row>
           </Container>
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner3})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-end">
-              <Col xl={8} lg={12} className=" text-right">
-                <p style= {pStyle}>Set your own pace around your busy schedule.</p>
-                <h2>
-                  Video Courses and <br /> Online Workshops.
-                </h2>
-              </Col>
-            </Row>
-          </Container>
         </SwiperSlide> */}
+   
         <div className="swiper-pagination" id="main-slider-pagination"></div>
       </Swiper>
     </section>

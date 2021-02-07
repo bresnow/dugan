@@ -22,13 +22,13 @@ const HeaderOne = () => {
         e.preventDefault();
       });
     // search toggler
-    // let searchCloser = document.querySelectorAll(".search-toggler");
-    // searchCloser.forEach((searchCloserBtn) => {
-    //   searchCloserBtn.addEventListener("click", function (e) {
-    //     document.querySelector(".search-popup").classList.toggle("active");c
-    //     e.preventDefault();
-    //   });
-    // });
+    let searchCloser = document.querySelectorAll(".search-toggler");
+    searchCloser.forEach((searchCloserBtn) => {
+      searchCloserBtn.addEventListener("click", function (e) {
+        document.querySelector(".search-popup").classList.toggle("active");c
+        e.preventDefault();
+      });
+    });
 
     //Close Mobile Menu
     let sideMenuCloser = document.querySelectorAll(
@@ -57,15 +57,13 @@ const HeaderOne = () => {
         <div className="inner-container">
           <Row>
             <Col sm={12} md={12} lg={12} xl={2}>
-              <div className="logo-box">
+              <div
+                style={{  marginTop: 5 }}
+                className="logo-box"
+              >
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img
-                      style={{ marginLeft: -100, marginTop: 5 }}
-                      src={logoDark}
-                      width="250"
-                      alt=""
-                    />
+                    <img src={logoDark} width="220" alt="" />
                   </a>
                 </Link>
                 <span className="fa fa-bars mobile-nav__toggler"></span>
@@ -113,7 +111,7 @@ const HeaderOne = () => {
                   </li>
                   <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:8773273239" style={{fontSize: 16}}>
+                    <a href="tel:8773273239" style={{ fontSize: 16 }}>
                       877-DB-READY
                       <p
                         style={{

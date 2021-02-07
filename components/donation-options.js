@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const DonationOptions = () => {
   return (
-    <section className="donate-options pt-120">
+    <section style={{ paddingBottom: 300 }} className="donate-options pt-120">
       <Container>
         <Row>
           <Col lg={6}>
-            <div className="donate-options__content">
+            <div className="donate-options__content ">
               <div className="block-title">
                 <p>Meet With An Expert</p>
                 <h3>
@@ -24,7 +24,7 @@ const DonationOptions = () => {
               </p>
             </div>
 
-            <div style={{ height: 300 }} className="donate-options__call"></div>
+            <div className="donate-options__call "></div>
           </Col>
           <Col lg={6}>
             <form
@@ -33,7 +33,7 @@ const DonationOptions = () => {
               data-wow-duration="1500ms"
             >
               <h3 className="text-center">Start Planning</h3>
-              <p className="text-center">
+              <p className="text-center ">
                 Take the first step and book a meeting with an expert from our
                 team to realize your future's true potential.
               </p>
