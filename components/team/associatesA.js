@@ -8,30 +8,31 @@ import teamImage4 from "../../assets/images/mary.jpg";
 import teamImage6 from "../../assets/images/team/sam.jpg";
 const TeamData = [
   {
-    image: teamImage2,
-
-    extraClassName: "",
-    name: "Kevin Dugan",
-    designation: " Senior Partner",
+    image: teamImage4,
+    extraClassName: "team-4-col",
+    name: "Mary Eberts",
+    designation: "Associate",
     bio:
-      "Kevin has helped hundreds of federal employees across the Ohio Valley plan their retirements over the last several years. Prior to being a financial planner, he worked as a health insurance broker, where he enabled people to make better decisions with their medical benefits. In 2007, Kevin graduated Cum Laude with a bachelor’s degree in Business Economics and a minor in Mathematics from Loyola University Maryland. Kevin and his long-time business partner, Wayne Brown, now operate their own company with a shared vision of helping as many federal employees as possible.",
+      "Mary graduated Magna Cum Laude with a bachelor’s degree in Finance and Risk Management and a minor in Economics from Northern Michigan University. Upon graduating, she worked in the commercial insurance industry assisting large human service and manufacturing companies with their property and casualty insurance needs. Transitioning from insurance to finance, Mary brings a strong background and unique perspective to the team.",
     social: [
       {
-        link: "mailto:kevin@duganbrown.com",
+        link: "mailto:mary@duganbrown.com",
         socialClass: "azino-icon-email",
-        contact: "kevin@duganbrown.com",
+        contact: "mary@duganbrown.com",
       },
       {
-        link: "tel:6107176829",
+        link: "tel:9064305367",
         socialClass: "azino-icon-calling",
-        contact: "610-717-6829",
+        contact: "906-430-5367",
       },
     ],
   },
 ];
 
-const Partners2 = () => {
-  const socials = () => {};
+const AssociateA = () => {
+    const socials = () => {
+        
+    }
   return (
     <Col>
       <div className={`team-card`}>
@@ -80,4 +81,4 @@ const Partners2 = () => {
   );
 };
 
-export default Partners2;
+export default AssociateA;

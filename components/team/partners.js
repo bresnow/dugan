@@ -9,7 +9,7 @@ import teamImage6 from "../../assets/images/team/sam.jpg";
 const TeamData = [
   {
     image: teamImage1,
-    extraClassName: "",
+    extraClassName: "team-4-col",
     name: "Wayne Brown",
     designation: "Senior Partner",
     bio:
@@ -27,7 +27,6 @@ const TeamData = [
       },
     ],
   },
-  
 ];
 
 const Partners = () => {
@@ -37,53 +36,48 @@ const Partners = () => {
   return (
     <Col>
       <div className={`team-card`}>
-        {TeamData.map(
-          (
-            { image, name, designation, social, bio,},
-            index
-          ) => (
-                <div
-                  className={`team-card text-center`}
-                  key={`team-card-key-${index}`}
-                >
-                  <div
-                    className="team-card__image-p"
-                    style={{ paddingTop: 30, marginBottom: -20 }}
-                  >
-                    <img src={image} alt="" />
-                  </div>
-                  <div className="event-card mb-50" style={{ padding: 30 }}>
-                    <div
-                      className="header-info__box"
-                      style={{ paddingTop: 20, alignContent: "center" }}
+        {TeamData.map(({ image, name, designation, social, bio }, index) => (
+          <div
+            className={`team-card text-center`}
+            key={`team-card-key-${index}`}
+          >
+            <div
+              className="team-card__image"
+              style={{ paddingTop: 30, marginBottom: -20 }}
+            >
+              <img src={image} alt="" />
+            </div>
+            <div className="event-card mb-50" style={{ padding: 30 }}>
+              <div
+                className="header-info__box"
+                style={{ paddingTop: 20, alignContent: "center" }}
+              >
+                <h3 style={{ align: "center" }}>{name}</h3>
+                <p>{designation}</p>
+                <div className="team-card__social">
+                  {social.map(({ link, socialClass }, index) => (
+                    <a
+                      href={link}
+                      aria-label="social link"
+                      key={`social-link-key-${index}`}
                     >
-                      <h3 style={{ align: "center" }}>{name}</h3>
-                      <p>{designation}</p>
-                      <div className="team-card__social">
-                        {social.map(({ link, socialClass }, index) => (
-                          <a
-                            href={link}
-                            aria-label="social link"
-                            key={`social-link-key-${index}`}
-                          >
-                            <i className={socialClass}></i>
-                          </a>
-                        ))}
-                      </div>
-                    </div>
-                    {/* ...> */}
-                    <div
-                      className="event-card-content pl-30 pr-30"
-                      style={{ padding: 30 }}
-                    >
-                      <p>{bio}</p>
-                    </div>
-                  </div>
+                      <i className={socialClass}></i>
+                    </a>
+                  ))}
                 </div>
-              
-          )
-        )}  </div>
-        </Col>
+              </div>
+              {/* ...> */}
+              <div
+                className="event-card-content pl-30 pr-30"
+                style={{ padding: 30 }}
+              >
+                <p>{bio}</p>
+              </div>
+            </div>
+          </div>
+        ))}{" "}
+      </div>
+    </Col>
   );
 };
 

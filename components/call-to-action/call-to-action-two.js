@@ -19,15 +19,7 @@ const CallToActionTwo = () => {
               </h2>
             </div>
           </Col>
-          <Col  lg={5}>
-            <div className="block-title">
-              <p>Vision Statement</p>
-              <h2 style={{ color: "white" }}>
-                A society whose civil servants and military personnel can
-                transition to retirement seamlessly, without financial concerns.
-              </h2>
-            </div>
-          </Col>
+        
           <Col
             lg={5}
             className=" d-flex justify-content-start justify-content-lg-end"

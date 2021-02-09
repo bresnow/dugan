@@ -17,10 +17,6 @@ import MainSlider2 from "../components/slider/soon-slider";
 
 const HomeOne = () => {
   return (
-    // <Layout pageTitle="Federal Retirement Experts | Coming Soon">
-    //   <MainSlider2 />
-    //   <CallToActionTwo />
-    // </Layout>
     <Layout pageTitle="Federal Retirement Experts">
       <HeaderOne />
       <StickyHeader extraClassName="stricky-header-two" />
@@ -30,7 +26,6 @@ const HomeOne = () => {
       <GalleryTestimonials>
         <TestimonialsTwo />
       </GalleryTestimonials>
-      {/* <CallToActionTwo />c */}
       <DonationOptions />
       <BrandCarousel />
       <Footer />

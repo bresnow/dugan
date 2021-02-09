@@ -8,10 +8,12 @@ import teamImage4 from "../../assets/images/mary.jpg";
 import teamImage6 from "../../assets/images/team/sam.jpg";
 import Partners2 from "./partners2";
 import Partners from "./partners";
+import AssociateA from "./associatesA";
+import AssociateB from "./associatesB";
 const TeamData = [
   {
     image: teamImage6,
-    extraClassName: "content-bg-3",
+    extraClassName: "team-4-col",
     name: "Sam Eberts",
     designation: "Junior Partner",
     bio:
@@ -26,47 +28,6 @@ const TeamData = [
         link: "tel:9062981277",
         socialClass: "azino-icon-calling",
         contact: "906-298-1277",
-      },
-    ],
-  },
-  {
-    image: teamImage4,
-    extraClassName: "content-bg-4",
-    name: "Mary Eberts",
-    designation: "Associate",
-    bio:
-      "Mary graduated Magna Cum Laude with a bachelor’s degree in Finance and Risk Management and a minor in Economics from Northern Michigan University. Upon graduating, she worked in the commercial insurance industry assisting large human service and manufacturing companies with their property and casualty insurance needs. Transitioning from insurance to finance, Mary brings a strong background and unique perspective to the team.",
-    social: [
-      {
-        link: "mailto:mary@duganbrown.com",
-        socialClass: "azino-icon-email",
-        contact: "mary@duganbrown.com",
-      },
-      {
-        link: "tel:9064305367",
-        socialClass: "azino-icon-calling",
-        contact: "906-430-5367",
-      },
-    ],
-  },
-
-  {
-    image: teamImage3,
-    extraClassName: "content-bg-cc3",
-    name: "Alex Leyberman",
-    designation: "Associate",
-    bio:
-      "Fluent in multiple languages, Alex immigrated to the United States with his family as a child. Following his education, he built up strong credentials in customer service management and mathematical problem-solving. Given his diverse background, Alex brings a unique perspective and skill set to Dugan Brown, as he now helps federal employees fulfill their dreams of retirement.",
-    social: [
-      {
-        link: "mailto:alex@duganbrown.com",
-        socialClass: "azino-icon-email",
-        contact: "alex@duganbrown.com",
-      },
-      {
-        link: "tel:6143132422",
-        socialClass: "azino-icon-calling",
-        contact: "614-313-2422",
       },
     ],
   },
@@ -116,7 +77,7 @@ const TeamCarousel = () => {
                     className="team-card__image"
                     style={{ paddingTop: 30, marginBottom: -20 }}
                   >
-                    <img src={image}  alt="" />
+                    <img src={image} alt="" />
                   </div>
                   <div className="event-card mb-50" style={{ padding: 30 }}>
                     <div
@@ -151,6 +112,10 @@ const TeamCarousel = () => {
           )
         )}
       </div>
+      <Row>
+        <AssociateA />
+        <AssociateB/>
+      </Row>
     </section>
   );
 };

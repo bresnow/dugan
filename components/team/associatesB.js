@@ -8,30 +8,31 @@ import teamImage4 from "../../assets/images/mary.jpg";
 import teamImage6 from "../../assets/images/team/sam.jpg";
 const TeamData = [
   {
-    image: teamImage2,
-
-    extraClassName: "",
-    name: "Kevin Dugan",
-    designation: " Senior Partner",
+    image: teamImage3,
+    extraClassName: "team-4-col",
+    name: "Alex Leyberman",
+    designation: "Associate",
     bio:
-      "Kevin has helped hundreds of federal employees across the Ohio Valley plan their retirements over the last several years. Prior to being a financial planner, he worked as a health insurance broker, where he enabled people to make better decisions with their medical benefits. In 2007, Kevin graduated Cum Laude with a bachelor’s degree in Business Economics and a minor in Mathematics from Loyola University Maryland. Kevin and his long-time business partner, Wayne Brown, now operate their own company with a shared vision of helping as many federal employees as possible.",
+      "Fluent in multiple languages, Alex immigrated to the United States with his family as a child. Following his education, he built up strong credentials in customer service management and mathematical problem-solving. Given his diverse background, Alex brings a unique perspective and skill set to Dugan Brown, as he now helps federal employees fulfill their dreams of retirement.",
     social: [
       {
-        link: "mailto:kevin@duganbrown.com",
+        link: "mailto:alex@duganbrown.com",
         socialClass: "azino-icon-email",
-        contact: "kevin@duganbrown.com",
+        contact: "alex@duganbrown.com",
       },
       {
-        link: "tel:6107176829",
+        link: "tel:6143132422",
         socialClass: "azino-icon-calling",
-        contact: "610-717-6829",
+        contact: "614-313-2422",
       },
     ],
   },
 ];
 
-const Partners2 = () => {
-  const socials = () => {};
+const AssociateB = () => {
+    const socials = () => {
+        
+    }
   return (
     <Col>
       <div className={`team-card`}>
@@ -80,4 +81,4 @@ const Partners2 = () => {
   );
 };
 
-export default Partners2;
+export default AssociateB;

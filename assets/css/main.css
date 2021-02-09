@@ -815,6 +815,7 @@
   .team-4-col {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
+    margin-left: 30%;
   }
 }
 .team-card__bio {
