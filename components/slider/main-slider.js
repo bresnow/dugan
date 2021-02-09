@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 
-import banner1 from "../../assets/images/main-slider/group-photo.jpg";
+import banner1 from "../../assets/images/main-slider/Cover.png";
 import banner2 from "../../assets/images/main-slider/lady-smartphone.jpg";
 import banner3 from "../../assets/images/group-trio.png";
 
@@ -32,13 +32,17 @@ const MainSlider = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${banner1})` }}
+            style={{ backgroundImage: `url(${banner3})` }}
           ></div>
 
           <Container>
-            <Row className="justify-content-start">
+            <div
+              className="image-layer2"
+              style={{ marginLeft:'40%', backgroundImage: `url(${banner1})` }}
+            ></div>
+            <Row className="justify-content-end">
               <Col xl={7} lg={12} className="text-left">
-                <p style={{ color: "#0bdeae", fontSize: 55 }}>FREE</p>
+                <p>FREE</p>
                 <h2>
                   Federal Retirement
                   <br /> Consultations
@@ -51,11 +55,6 @@ const MainSlider = () => {
                   Learn More
                 </a>
               </Col>
-              {/* <Col>
-                <div className='p-120 '>
-                  <img src={banner3} />
-                </div>
-              </Col> */}
             </Row>
           </Container>
         </SwiperSlide>
@@ -88,7 +87,7 @@ const MainSlider = () => {
             </Row>
           </Container>
         </SwiperSlide> */}
-   
+
         <div className="swiper-pagination" id="main-slider-pagination"></div>
       </Swiper>
     </section>
