@@ -121,7 +121,7 @@ const TESTIMONIALS_DATA = [
   },
   {
      image: w3,
-    name: "Deborah Tiny Jackson DeSantis",
+    name: "Deborah DeSantis",
     text:
       "Sam Eberts was wonderful to work with. He answered all of my questions and gave me great advice. He is a great guy and very knowledgeable.",
   },
