@@ -3484,7 +3484,7 @@ h6 {
   margin: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: var(--thm-white);
+  color: var(--thm-secondary);
   filter: drop-shadow(-8px -1px .2rem black);
   font-size: 70px;
   line-height: 1.1;
