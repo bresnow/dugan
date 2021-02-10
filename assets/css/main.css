@@ -3485,7 +3485,7 @@ h6 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: var(--thm-secondary);
-  filter: drop-shadow(2px 2px 0 0 black);
+  filter: drop-shadow(2px 2px 0 var(--thm-white))
   font-size: 70px;
   line-height: 1.1;
   font-weight: bold;
