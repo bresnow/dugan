@@ -21,25 +21,27 @@ const AboutOne = () => {
           <Row>
             <Col md={12} lg={4}>
               <div className="block-title">
-                <p>
-                  Make a Difference
-                </p>
+                <p>Make a Difference</p>
                 <h3>Knowledge is the key to a stress-free financial plan .</h3>
               </div>
             </Col>
             <Col md={12} lg={4}>
+              <div className="block-title">
+                <h5>Vision Statement</h5>
+              </div>
               <p className="team-about__top-text">
-              We at Dugan Brown believe that every individual has the right 
-              to enjoy a stress-free retirement. Every person, young or old, 
-              no matter their background, deserves to fully understand what 
-              benefits they have available to them. 
+                A society whose civil servants and military personnel can
+                transition to retirement seamlessly, without financial concerns.
               </p>
             </Col>
             <Col md={12} lg={4}>
+              <div className="block-title">
+                <h5>Mission Statement</h5>
+              </div>
               <p className="team-about__top-text">
-              Every employee should have  unrestricted access to resources that 
-              provide them with simple and easy-to-understand explanations of 
-              strategies in order to maximize their retirement.
+                To empower every federal employee, no matter their background,
+                with unrestricted access to reliable and easy-to-understand
+                information about their retirement.
               </p>
             </Col>
           </Row>

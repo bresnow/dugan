@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 
-import banner1 from "../../assets/images/main-slider/Cover.png";
+import banner1 from "../../assets/images/main-slider/group-photo.jpg";
 import banner2 from "../../assets/images/main-slider/lady-smartphone.jpg";
 import banner3 from "../../assets/images/group-trio.png";
 
@@ -32,15 +32,12 @@ const MainSlider = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${banner3})` }}
+            style={{ backgroundImage: `url(${banner1})` }}
           ></div>
 
           <Container>
-            <div
-              className="image-layer2"
-              style={{ marginLeft:'40%', backgroundImage: `url(${banner1})` }}
-            ></div>
-            <Row className="justify-content-end">
+           
+            <Row className="justify-content-start">
               <Col xl={7} lg={12} className="text-left">
                 <p>FREE</p>
                 <h2>
@@ -58,35 +55,7 @@ const MainSlider = () => {
             </Row>
           </Container>
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner2})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-end">
-              <Col xl={8} lg={12} className="text-right">
-                <p>
-                  Everyone deserves accurate information regarding their
-                  benefits.
-                </p>
-                <h2>
-                  <span className="iconic-text">That Information</span>
-                  <br /> Should Also Be
-                  <br /> Free.
-                </h2>
-                <a
-                  href="/contact"
-                  data-target=".contact"
-                  className="scroll-to-target thm-btn "
-                >
-                  Schedule A Free Consultation
-                </a>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide> */}
+       
 
         <div className="swiper-pagination" id="main-slider-pagination"></div>
       </Swiper>

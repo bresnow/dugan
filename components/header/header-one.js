@@ -116,11 +116,11 @@ const HeaderOne = () => {
                       <p
                         style={{
                           color: "grey",
-                          marginLeft: -4,
+                          marginLeft: 0,
                           marginBottom: 0,
                         }}
                       >
-                        (877-327-3239)
+                        877-327-3239
                       </p>
                     </a>
                   </li>

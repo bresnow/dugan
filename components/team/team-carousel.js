@@ -79,7 +79,7 @@ const TeamCarousel = () => {
                   >
                     <img src={image} alt="" />
                   </div>
-                  <div className="event-card mb-50" style={{ padding: 30 }}>
+                  <div className="event-card mb-50" >
                     <div
                       className="header-info__box"
                       style={{ paddingTop: 20, alignContent: "center" }}
@@ -100,8 +100,8 @@ const TeamCarousel = () => {
                     </div>
                     {/* ...> */}
                     <div
-                      className="event-card-content pl-30 pr-30"
-                      style={{ padding: 30 }}
+                      className="event-card-content "
+                      
                     >
                       <p>{bio}</p>
                     </div>
