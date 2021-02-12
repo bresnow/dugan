@@ -3391,7 +3391,7 @@ h6 {
 }
 
 .main-slider .image-layer {
-  margin-top: 5%;
+  margin-top: 15%;
   margin-bottom: -10px;
   position: absolute;
   top: 0;
@@ -3399,7 +3399,7 @@ h6 {
   right: 0;
   bottom: 0;
   opacity: 1;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size:contain;
  
   /* -webkit-transform: scale(1);
