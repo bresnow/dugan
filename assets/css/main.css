@@ -3399,7 +3399,7 @@ h6 {
   right: 0;
   bottom: 0;
   opacity: 1;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size:contain;
  
   /* -webkit-transform: scale(1);
