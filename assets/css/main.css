@@ -2258,6 +2258,7 @@ h6 {
 .stricky-header .main-menu__list > li {
   padding-top: 24.5px;
   padding-bottom: 24.5px;
+  padding-left: 24.5px;
 }
 
 .main-menu .main-menu__list > li + li,
