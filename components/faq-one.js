@@ -45,8 +45,8 @@ const FaqOne = () => {
               <p>
                 At Dugan Brown, we proudly base our core values on these same
                 ideals. Integrity, Service, and Excellence are crucial parts of
-                our company’s <a href="/#mission">mission</a>, as well as our{" "}
-                <a href="/#mission">vision</a> for the world. We strive to
+                our company’s <a href="/about#mission">mission</a>, as well as our{" "}
+                <a href="/about#mission">vision</a> for the world. We strive to
                 maintain these principles in our interactions with colleagues
                 and each person that we help with retirement. <br />
                 <br /> With Mindfulness in place as the final component of our
@@ -54,7 +54,7 @@ const FaqOne = () => {
                 with a vigorous amount of conscientiousness, keeping our
                 foundational principles at the forefront of every interaction
                 and bringing us just a tiny bit closer to our lofty{" "}
-                <a href="/#mission">vision</a> for a world.
+                <a href="/about#mission">vision</a> for a world.
               </p>
             </div>
           </Col>

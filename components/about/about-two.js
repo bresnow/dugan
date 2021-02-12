@@ -23,12 +23,13 @@ const AboutTwo = () => {
                 <h3>A Reassuring Plan For Your Future. </h3>
               </div>
               <p className="mb-40 pr-10">
-                Our <ScrollLink
+                Our <Link
+                href='/about#mission'
             to="mission"
             smooth={true}
             duration={500}
             className="scroll-to-top"
-          ><a href='/'>mission</a></ScrollLink> is to empower federal employees with control over
+          ><a >mission</a></Link> is to empower federal employees with control over
                 their future by providing knowledge and financial strategy --
                 transitioning hard-working Americans to care-free retirees.
               </p>

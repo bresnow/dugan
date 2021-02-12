@@ -5,7 +5,7 @@ import about3 from "../../assets/images/resources/about-1-2.jpg";
 
 const AboutOne = () => {
   return (
-    <section className="about-one pt-120 pb-40">
+    <section className="about-one pt-120 pb-40" id="mission">
       <Container>
         <Row>
           <Col lg={6}>
