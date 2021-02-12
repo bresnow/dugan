@@ -22,7 +22,7 @@ const AboutOne = () => {
             <Col md={12} lg={4}>
               <div className="block-title">
                 <p>Make a Difference</p>
-                <h3>Knowledge is the key to a stress-free financial plan .</h3>
+                <h3>Knowledge is the key to a stress-free financial plan.</h3>
               </div>
             </Col>
             <Col md={12} lg={4}>
