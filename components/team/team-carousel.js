@@ -8,6 +8,7 @@ import teamImage4 from "../../assets/images/mary.jpg";
 import teamImage6 from "../../assets/images/team/sam.jpg";
 import Partners2 from "./partners2";
 import Partners from "./partners";
+import Sam from "./partnersS";
 import AssociateA from "./associatesA";
 import AssociateB from "./associatesB";
 const TeamData = [
@@ -61,7 +62,7 @@ const TeamCarousel = () => {
         <Partners2 />
       </Row>
 
-      <div className={`team-card`}>
+      {/* <div className={`team-card`}>
         {TeamData.map(
           (
             { image, extraClassName, name, designation, social, bio },
@@ -98,7 +99,7 @@ const TeamCarousel = () => {
                         ))}
                       </div>
                     </div>
-                    {/* ...> */}
+                   
                     <div
                       className="event-card-content "
                       
@@ -111,10 +112,16 @@ const TeamCarousel = () => {
             </Row>
           )
         )}
-      </div>
+      </div> */}
+      <Row>
+        <div style={{ width: "25%" }} />
+
+        <Sam />
+        <div style={{ width: "25%" }} />
+      </Row>
       <Row>
         <AssociateA />
-        <AssociateB/>
+        <AssociateB />
       </Row>
     </section>
   );

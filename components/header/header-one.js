@@ -116,7 +116,7 @@ const HeaderOne = () => {
                       <p
                         style={{
                           color: "grey",
-                          marginLeft: 0,
+                          marginLeft: 0 ,
                           marginBottom: 0,
                         }}
                       >
