@@ -7,7 +7,7 @@ const NavLinks = ({ extraClassName }) => {
     clickedItem.querySelector(".dropdown-list").classList.toggle("show");
   };
   return (
-    <ul style={{marginLeft:'5%'}} className={`main-menu__list ${extraClassName}`}>
+    <ul  className={`main-menu__list ${extraClassName}`}>
       <li>
         <Link href="/">
           <a>Home</a>

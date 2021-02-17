@@ -2244,7 +2244,7 @@ h6 {
 .stricky-header .main-menu__list,
 .stricky-header .main-menu__list ul {
   margin: 0;
-  padding: 80;
+  padding: 50;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2262,13 +2262,13 @@ h6 {
 
 .main-menu .main-menu__list > li + li,
 .stricky-header .main-menu__list > li + li {
-  margin-left: 30px;
+    padding-left: 80px;
 }
 
 @media (min-width: 1281px) {
   .main-menu .main-menu__list > li + li,
   .stricky-header .main-menu__list > li + li {
-    margin-left: 100px;
+    padding-left: 80px;
   }
 }
 
