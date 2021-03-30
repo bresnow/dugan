@@ -117,7 +117,7 @@ const ContactFormOne = () => {
                   <input
                     ref={register({
                       required: true,
-                      pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                      pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
                     })}
                     type="text"
                     name="phone"
